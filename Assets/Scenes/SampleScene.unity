@@ -180,7 +180,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 2.6648638
   m_Depth: -1
   m_CullingMask:
@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0.48089004, z: -10}
+  m_LocalPosition: {x: -0.12, y: 1.46089, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -278,6 +278,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PJ_Movement
   speed: 3.7
   rb: {fileID: 716606842}
+  spriteRenderer: {fileID: 716606844}
+  EldrinAbajo: {fileID: 6179537849645042008, guid: 273369e2df19bea4fb1b3cafa9f9f737, type: 3}
+  EldrinArriba: {fileID: 6860698753954723931, guid: a41129b0e32bc854a87d381b44b54642, type: 3}
+  EldrinDerecha: {fileID: 5636762395507802743, guid: 284be0abb461a1248bd1a83e99665c19, type: 3}
+  EldrinIzquierda: {fileID: -1781225400588944038, guid: a795b71fa71563141a3346b72821349a, type: 3}
 --- !u!50 &716606842
 Rigidbody2D:
   serializedVersion: 5
@@ -339,8 +344,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0019085109, y: 0.15958992}
-  m_Size: {x: 0.1465298, y: 0.23608828}
+  m_Offset: {x: -0.0015907511, y: 0.03817773}
+  m_Size: {x: 0.14367463, y: 0.25184482}
   m_Direction: 0
 --- !u!212 &716606844
 SpriteRenderer:
@@ -409,7 +414,7 @@ Transform:
   m_GameObject: {fileID: 716606840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.02, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -442,7 +447,7 @@ Transform:
   m_GameObject: {fileID: 1085220009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0.48089004, z: -10}
+  m_LocalPosition: {x: -0.12, y: 1.46089, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -509,7 +514,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 0, z: -10}
+  FollowOffset: {x: 0, y: 1, z: -10}
 --- !u!1 &2034830266
 GameObject:
   m_ObjectHideFlags: 0

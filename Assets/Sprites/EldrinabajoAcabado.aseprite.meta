@@ -129,8 +129,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: EldrinabajoAcabado
     originalName: 
-    pivot: {x: 0.513298, y: 0.34707278}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
