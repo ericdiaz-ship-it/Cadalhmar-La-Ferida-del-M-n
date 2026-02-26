@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 273369e2df19bea4fb1b3cafa9f9f737
+guid: 9080a060f76bdbf499487e25e62fedbd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinabajoAcabado
+  - name: mesa
     originalName: 
-    pivot: {x: 0.513298, y: 0.34707278}
+    pivot: {x: 0.47826087, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -138,8 +138,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 23
-      height: 25
-    spriteID: 4c230c1040497d147a2d7a8a2a3a6cfe
+      height: 29
+    spriteID: d95562addc6b50441ac56b7924b87c73
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 373908486
+      value0: 3732937280
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinabajoAcabado
+    name: mesa
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinabajoAcabado
+    - name: mesa
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 5
-        y: 4
+        y: 0
         width: 23
-        height: 25
-      spriteId: 4c230c1040497d147a2d7a8a2a3a6cfe
+        height: 29
+      spriteId: d95562addc6b50441ac56b7924b87c73
     linkedCells: []
     tileCells: []
     tileSetIndex: 0

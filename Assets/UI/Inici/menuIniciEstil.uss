@@ -1,0 +1,75 @@
+/* Root ocupa toda la pantalla */
+.root {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Imagen de fondo */
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("project://database/Assets/Imatges/MenuInici.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay violeta oscuro */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 0, 35, 0.65);
+}
+
+/* Contenedor central */
+.center-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Título */
+.title {
+    font-size: 72px;
+    -unity-font-style: bold;
+    color: #F2F0F5;
+    letter-spacing: 8px;
+    margin-bottom: 60px;
+    unity-text-align: middle-center;
+
+    /* Brillo suave */
+    text-shadow: 0 0 25px rgba(255,255,255,0.35);
+}
+
+/* Botones */
+.menu-button {
+    width: 260px;
+    height: 55px;
+    margin-top: 18px;
+
+    background-color: #4B2354; /* Morado exacto oscuro */
+    border-radius: 4px;
+    border-width: 0;
+
+    color: #EDE3F2;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    unity-text-align: middle-center;
+}
+
+/* Hover */
+.menu-button:hover {
+    background-color: #5E2C69;
+}
+
+/* Click */
+.menu-button:active {
+    background-color: #3A1A42;
+}

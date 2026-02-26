@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Inici/menuIniciEstil.uss?fileID=7433441132597879392&amp;guid=447a1005b72a88241a7db2f7185a75ea&amp;type=3#menuIniciEstil" />
+    <ui:VisualElement class="root">
+        <ui:VisualElement class="background" />
+        <ui:VisualElement class="overlay" />
+        <ui:VisualElement class="center-container">
+            <ui:Label text="CADALHMAR" class="title" />
+            <ui:Button text="New Game" name="NewGame" class="menu-button" />
+            <ui:Button text="Continue" name="Continue" class="menu-button" />
+            <ui:Button text="Exit" name="Exit" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

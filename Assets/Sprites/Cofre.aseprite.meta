@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 273369e2df19bea4fb1b3cafa9f9f737
+guid: c03c93d2f986f66478d90b0c29d168a8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinabajoAcabado
+  - name: Cofre
     originalName: 
-    pivot: {x: 0.513298, y: 0.34707278}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 23
-      height: 25
-    spriteID: 4c230c1040497d147a2d7a8a2a3a6cfe
+      width: 18
+      height: 17
+    spriteID: 694c4fbbc206fa64bb50a66b48d1bf78
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 373908486
+      value0: 2811686141
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinabajoAcabado
+    name: Cofre
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinabajoAcabado
+    - name: Cofre
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 5
-        y: 4
-        width: 23
-        height: 25
-      spriteId: 4c230c1040497d147a2d7a8a2a3a6cfe
+        x: 0
+        y: 0
+        width: 18
+        height: 17
+      spriteId: 694c4fbbc206fa64bb50a66b48d1bf78
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 32, y: 64}
+  canvasSize: {x: 18, y: 17}
+  previousTextureSize: {x: 32, y: 32}

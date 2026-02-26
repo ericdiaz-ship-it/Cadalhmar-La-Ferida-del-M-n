@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 273369e2df19bea4fb1b3cafa9f9f737
+guid: 185873a96a1c17b43abe0e8de34f8499
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinabajoAcabado
+  - name: sillaDeLado
     originalName: 
-    pivot: {x: 0.513298, y: 0.34707278}
+    pivot: {x: 0.4666667, y: -0.03448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 23
-      height: 25
-    spriteID: 4c230c1040497d147a2d7a8a2a3a6cfe
+      width: 15
+      height: 29
+    spriteID: fa6c99c93c7597c48b6d5dae52afae75
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 373908486
+      value0: 495923244
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinabajoAcabado
+    name: sillaDeLado
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinabajoAcabado
+    - name: sillaDeLado
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 5
-        y: 4
-        width: 23
-        height: 25
-      spriteId: 4c230c1040497d147a2d7a8a2a3a6cfe
+        x: 9
+        y: 1
+        width: 15
+        height: 29
+      spriteId: fa6c99c93c7597c48b6d5dae52afae75
     linkedCells: []
     tileCells: []
     tileSetIndex: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 273369e2df19bea4fb1b3cafa9f9f737
+guid: a41129b0e32bc854a87d381b44b54642
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinabajoAcabado
+  - name: EldrinArriba
     originalName: 
-    pivot: {x: 0.513298, y: 0.34707278}
+    pivot: {x: 0.47826087, y: -0.16}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 25
-    spriteID: 4c230c1040497d147a2d7a8a2a3a6cfe
+    spriteID: 2b992ed4b888cfb4eb63efdc32361838
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,17 +153,17 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 373908486
+      value0: 2147321063
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinabajoAcabado
+    name: EldrinArriba
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinabajoAcabado
+    - name: EldrinArriba
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 4
         width: 23
         height: 25
-      spriteId: 4c230c1040497d147a2d7a8a2a3a6cfe
+      spriteId: 2b992ed4b888cfb4eb63efdc32361838
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
