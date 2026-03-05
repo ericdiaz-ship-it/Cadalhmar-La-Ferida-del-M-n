@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a41129b0e32bc854a87d381b44b54642
+guid: bd167ef9b05bc9142b0ba0d55879b5d6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,30 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinArriba
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.47826087, y: -0.17391305}
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 35
+      width: 18
+      height: 22
+    spriteID: cd85eeaf84578bf4796d01ec0cb7405c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 35}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +158,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 23
+      width: 18
       height: 23
-    spriteID: 2b992ed4b888cfb4eb63efdc32361838
+    spriteID: ed57e1894284b3e47a9d41696474c565
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,30 +169,99 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 35
+      width: 18
+      height: 22
+    spriteID: f37bf201e077a4240990f76159e075cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 35}
+  - name: Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 4
+      width: 18
+      height: 23
+    spriteID: 6da27a8c05e26794fa7096e7191671f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 4}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2147321063
+      value0: 3847049333
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinArriba
+    name: EldrinAnimadoIzquierda
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinArriba
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 5
+        x: 7
         y: 4
-        width: 23
+        width: 18
+        height: 22
+      spriteId: cd85eeaf84578bf4796d01ec0cb7405c
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 4
+        width: 18
         height: 23
-      spriteId: 2b992ed4b888cfb4eb63efdc32361838
+      spriteId: ed57e1894284b3e47a9d41696474c565
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 4
+        width: 18
+        height: 22
+      spriteId: f37bf201e077a4240990f76159e075cf
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 4
+        width: 18
+        height: 23
+      spriteId: 6da27a8c05e26794fa7096e7191671f9
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -182,4 +272,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 32, y: 32}
+  previousTextureSize: {x: 64, y: 64}
