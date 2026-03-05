@@ -16,26 +16,31 @@ public class PJ_Movement : MonoBehaviour
     public Sprite EldrinDerecha;
     public Sprite EldrinIzquierda;
 
+    // Animator per controlar animacions
+    public Animator animator;
+
     private float horizontal;
     private float vertical;
 
     private float lastHorizontal = 0f;
     private float lastVertical = 0f;
 
+    // Última dirección de movimiento
+    private Vector2 lastDirection = Vector2.down;
+
     void Start()
     {
         // Per defecte sempre mirant cap avall
         spriteRenderer.sprite = EldrinAbajo;
+        lastDirection = Vector2.down;
     }
 
     void Update()
     {
         //obtenir entrada horizontal (tecles A i D o fletxes esquerra i dreta)
-        //dreta = 1, esquerra = -1, no moure's = 0
         horizontal = Input.GetAxisRaw("Horizontal");
 
         //obtenir entrada vertical (tecles W i S o fletxes amunt i avall)
-        //amunt = 1, avall = -1, no moure's = 0
         vertical = Input.GetAxisRaw("Vertical");
 
         if (horizontal != 0) lastHorizontal = Time.time;
@@ -50,33 +55,45 @@ public class PJ_Movement : MonoBehaviour
                 horizontal = 0;
         }
 
-        //canviar sprite segons direcció
-        if (horizontal > 0)
+        Vector2 movement = new Vector2(horizontal, vertical);
+
+        //comprovar si s'està movent
+        bool isMoving = movement != Vector2.zero;
+
+        if (isMoving)
         {
-            spriteRenderer.sprite = EldrinDerecha;
+            // Guardamos la última dirección para usarla cuando paremos
+            lastDirection = movement;
+
+            // Activamos animación instantánea
+            animator.SetBool("isMoving", true);
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
         }
-        else if (horizontal < 0)
+        else
         {
-            spriteRenderer.sprite = EldrinIzquierda;
-        }
-        else if (vertical > 0)
-        {
-            spriteRenderer.sprite = EldrinArriba;
-        }
-        else if (vertical < 0)
-        {
-            spriteRenderer.sprite = EldrinAbajo;
+            // Cuando está quieto, desactivamos la animación moviente
+            animator.SetBool("isMoving", false);
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
+
+            // Cambiamos el sprite manual según la última dirección
+            if (Mathf.Abs(lastDirection.x) > Mathf.Abs(lastDirection.y))
+            {
+                if (lastDirection.x > 0) spriteRenderer.sprite = EldrinDerecha;
+                else spriteRenderer.sprite = EldrinIzquierda;
+            }
+            else
+            {
+                if (lastDirection.y > 0) spriteRenderer.sprite = EldrinArriba;
+                else spriteRenderer.sprite = EldrinAbajo;
+            }
         }
     }
 
-    // fixedupdate és una funció que s'executa a intervals regulars, ideal per a la física i el moviment
     void FixedUpdate()
     {
-        //aplicar moviment al personatge
-        //multiplicar per speed per ajustar la velocitat del personatge
-        //el resultat és un vector que indica la direcció i la velocitat del moviment
-        //rb.velocity és la velocitat actual del rigidbody, que es canvia per moure el personatge
         Vector2 movement = new Vector2(horizontal, vertical).normalized;
-        rb.velocity = movement * speed;
+        rb.linearVelocity = movement * speed;
     }
 }
