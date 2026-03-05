@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 273369e2df19bea4fb1b3cafa9f9f737
+guid: 901b6d47ecb24e340ad1440b415b63af
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,19 +127,19 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinabajoAcabado
+  - name: puerta
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 23
-      height: 25
-    spriteID: 4c230c1040497d147a2d7a8a2a3a6cfe
+      width: 31
+      height: 32
+    spriteID: 7f7275115ed81ec47bf656d9a94115c8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 373908486
+      value0: 3875657235
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinabajoAcabado
+    name: puerta
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinabajoAcabado
+    - name: puerta
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 5
-        y: 4
-        width: 23
-        height: 25
-      spriteId: 4c230c1040497d147a2d7a8a2a3a6cfe
+        x: 1
+        y: 0
+        width: 31
+        height: 32
+      spriteId: 7f7275115ed81ec47bf656d9a94115c8
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -182,4 +182,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 32, y: 64}
+  previousTextureSize: {x: 64, y: 64}
