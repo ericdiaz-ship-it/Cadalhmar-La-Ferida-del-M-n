@@ -2087,7 +2087,7 @@ Transform:
   m_GameObject: {fileID: 819766122}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.63, y: 1.46089, z: -4}
+  m_LocalPosition: {x: -0.52, y: 1.74089, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6813,9 +6813,10 @@ GameObject:
   - component: {fileID: 1078381637}
   - component: {fileID: 1078381636}
   - component: {fileID: 1078381635}
+  - component: {fileID: 1078381640}
   m_Layer: 0
   m_Name: Eldrin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6836,9 +6837,10 @@ MonoBehaviour:
   rb: {fileID: 1078381636}
   spriteRenderer: {fileID: 1078381638}
   EldrinAbajo: {fileID: 6179537849645042008, guid: 273369e2df19bea4fb1b3cafa9f9f737, type: 3}
-  EldrinArriba: {fileID: -7421085218638523036, guid: 13ee71f0d70751c4ebeb04692fa74982, type: 3}
+  EldrinArriba: {fileID: 6941294589102913108, guid: 13ee71f0d70751c4ebeb04692fa74982, type: 3}
   EldrinDerecha: {fileID: 5636762395507802743, guid: 284be0abb461a1248bd1a83e99665c19, type: 3}
   EldrinIzquierda: {fileID: -1781225400588944038, guid: a795b71fa71563141a3346b72821349a, type: 3}
+  animator: {fileID: 1078381640}
 --- !u!50 &1078381636
 Rigidbody2D:
   serializedVersion: 5
@@ -6970,12 +6972,34 @@ Transform:
   m_GameObject: {fileID: 1078381634}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.51, y: -0.02, z: 0}
+  m_LocalPosition: {x: -0.4, y: 0.26, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1078381640
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078381634}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1e2e0160d9032514491862054760c0b9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1519984297
 GameObject:
   m_ObjectHideFlags: 0
@@ -7004,7 +7028,7 @@ Transform:
   m_GameObject: {fileID: 1519984297}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.63, y: 1.46089, z: -4}
+  m_LocalPosition: {x: -0.52, y: 1.74089, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
