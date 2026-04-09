@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 273369e2df19bea4fb1b3cafa9f9f737
+guid: 1d5fc026c2d63bf4fbaf858e47abc728
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,10 +127,10 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: EldrinabajoAcabado
+  - name: catherineArriba
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.47826087, y: -0.16}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 25
-    spriteID: 4c230c1040497d147a2d7a8a2a3a6cfe
+    spriteID: e7c31418020838e49a8f77383158e546
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,17 +153,17 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 373908486
+      value0: 552019462
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: EldrinabajoAcabado
+    name: catherineArriba
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: EldrinabajoAcabado
+    - name: catherineArriba
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 4
         width: 23
         height: 25
-      spriteId: 4c230c1040497d147a2d7a8a2a3a6cfe
+      spriteId: e7c31418020838e49a8f77383158e546
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
