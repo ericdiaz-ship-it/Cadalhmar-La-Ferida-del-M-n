@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1d5fc026c2d63bf4fbaf858e47abc728
+guid: 02cff1ee11b25a44fb2bdcc3d96f4eb3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,19 +127,19 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: catherineArriba
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.47826087, y: -0.16666667}
+    pivot: {x: 0.47826087, y: -0.18181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 70
+      x: 35
+      y: 4
       width: 23
-      height: 24
-    spriteID: e7c31418020838e49a8f77383158e546
+      height: 22
+    spriteID: 8dfd66d823e4e39419418573d84f1a2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,7 +147,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 70}
+    uvTransform: {x: 35, y: 4}
   - name: Frame_1
     originalName: 
     pivot: {x: 0.47826087, y: -0.16}
@@ -160,7 +160,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 25
-    spriteID: d8fd1e5a9ba73664f910abd343d04780
+    spriteID: 3dd07a99adf6c9246b51adf7d748aee6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -171,17 +171,17 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Frame_2
     originalName: 
-    pivot: {x: 0.47826087, y: -0.16666667}
+    pivot: {x: 0.47826087, y: -0.18181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 35
-      y: 4
+      y: 34
       width: 23
-      height: 24
-    spriteID: d4ad2b09284bb544c947af71c15ded59
+      height: 22
+    spriteID: 68823aefac9c7ab46ad1968faabc6373
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -189,10 +189,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 35, y: 4}
+    uvTransform: {x: 35, y: 34}
   - name: Frame_3
     originalName: 
-    pivot: {x: 0.47826087, y: -0.16}
+    pivot: {x: 0.47826087, y: -0.17391305}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -201,8 +201,8 @@ ScriptedImporter:
       x: 4
       y: 37
       width: 23
-      height: 25
-    spriteID: ee34de7ddf96c2043bead357cabee9a0
+      height: 23
+    spriteID: 743923b44519b16478793b492f6396ad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -216,12 +216,12 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 552019462
+      value0: 2527466670
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: catherineArriba
+    name: catherineAbajo
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -233,8 +233,8 @@ ScriptedImporter:
         x: 5
         y: 4
         width: 23
-        height: 24
-      spriteId: e7c31418020838e49a8f77383158e546
+        height: 22
+      spriteId: 8dfd66d823e4e39419418573d84f1a2f
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -243,7 +243,7 @@ ScriptedImporter:
         y: 4
         width: 23
         height: 25
-      spriteId: d8fd1e5a9ba73664f910abd343d04780
+      spriteId: 3dd07a99adf6c9246b51adf7d748aee6
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -251,8 +251,8 @@ ScriptedImporter:
         x: 5
         y: 4
         width: 23
-        height: 24
-      spriteId: d4ad2b09284bb544c947af71c15ded59
+        height: 22
+      spriteId: 68823aefac9c7ab46ad1968faabc6373
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -260,8 +260,8 @@ ScriptedImporter:
         x: 5
         y: 4
         width: 23
-        height: 25
-      spriteId: ee34de7ddf96c2043bead357cabee9a0
+        height: 23
+      spriteId: 743923b44519b16478793b492f6396ad
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -272,4 +272,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 64, y: 128}
+  previousTextureSize: {x: 64, y: 64}
