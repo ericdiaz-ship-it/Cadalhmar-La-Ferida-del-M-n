@@ -442,6 +442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: puerta
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 901b6d47ecb24e340ad1440b415b63af, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 901b6d47ecb24e340ad1440b415b63af, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5
@@ -492,7 +496,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 901b6d47ecb24e340ad1440b415b63af, type: 3}
   m_PrefabInstance: {fileID: 54488742199595933}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4290041339659807901
+--- !u!114 &1819336437892336252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
