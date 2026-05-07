@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23623864}
   - component: {fileID: 23623863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36447337}
   - component: {fileID: 36447336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,6 +311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CadiraMenjador4
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5560607
@@ -362,8 +366,57 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 528674528}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+--- !u!1 &59975238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59975240}
+  - component: {fileID: 59975239}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &59975239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59975238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6236504543eeabb41bbf7910abeddeff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+  panelFadePanel: {fileID: 1228611211}
+  duradaFade: 5
+--- !u!4 &59975240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59975238}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.49289, y: -10.61704, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &69850010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,6 +504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CadiraMenjador6
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_LocalScale.x
       value: -1.5871818
@@ -502,7 +559,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 421701236}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
 --- !u!4 &80547098 stripped
 Transform:
@@ -519,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87383776}
   - component: {fileID: 87383775}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,6 +659,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 869038330}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.526}
+--- !u!1 &89900417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+  m_PrefabInstance: {fileID: 2056456576}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &90021186
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: armariEulalia
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: ade2847677a564c4fb2e5978d6816018, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: ade2847677a564c4fb2e5978d6816018, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -760,6 +829,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: ade2847677a564c4fb2e5978d6816018, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1901577550}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: ade2847677a564c4fb2e5978d6816018, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1901577552}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: ade2847677a564c4fb2e5978d6816018, type: 3}
 --- !u!1 &127808420 stripped
 GameObject:
@@ -817,6 +889,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.24, y: 0.28}
   m_EdgeRadius: 0
+--- !u!114 &127808425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127808420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Aqu\xED \xE9s on guardem la verdura, o menjar, queda poc haur\xE9 d\u2019anar
+    a comprar-hi al mercat."
 --- !u!1001 &141014693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -828,6 +914,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_Name
       value: Barril
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_SortingOrder
@@ -960,7 +1050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 164579346}
   - component: {fileID: 164579345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_14 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,7 +1140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 168860405}
   - component: {fileID: 168860404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_16 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1140,7 +1230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 234473799}
   - component: {fileID: 234473798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_16 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1269,19 +1359,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 901b6d47ecb24e340ad1440b415b63af, type: 3}
   m_PrefabInstance: {fileID: 390160665}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &273180329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273180328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
-  text: No puc sortir encara.
 --- !u!61 &273180330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1328,6 +1405,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.31, y: 0.29595733}
   m_EdgeRadius: 0
+--- !u!114 &273180333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273180328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6781d404d9294db46a26af4e6fedc1b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneTeleport
+  nombreEscenaDestino: Poble
+  puntoEntradaID: CasaEldrinExterior
 --- !u!1001 &280318826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1339,6 +1430,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_Name
       value: BarrilMenajdor
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_LocalScale.x
@@ -1392,6 +1487,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 127808425}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 127808423}
@@ -1496,7 +1594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 291188354}
   - component: {fileID: 291188353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,11 +1668,11 @@ Transform:
   m_GameObject: {fileID: 291188352}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.69870305, w: 0.7154119}
-  m_LocalPosition: {x: 0.21931924, y: 0.1049979, z: 0}
-  m_LocalScale: {x: 1.0264726, y: 1.0656785, z: 1}
+  m_LocalPosition: {x: 0.21931924, y: 0.10499791, z: 0}
+  m_LocalScale: {x: 1.0264726, y: 1.0656784, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 294222509}
+  m_Father: {fileID: 389806260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.646}
 --- !u!1 &294222508
 GameObject:
@@ -1586,7 +1684,8 @@ GameObject:
   m_Component:
   - component: {fileID: 294222509}
   - component: {fileID: 294222510}
-  m_Layer: 0
+  - component: {fileID: 294222511}
+  m_Layer: 6
   m_Name: TaulaAlmacen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1608,11 +1707,9 @@ Transform:
   m_Children:
   - {fileID: 1447608754}
   - {fileID: 506446813}
-  - {fileID: 525018639}
-  - {fileID: 1863272004}
-  - {fileID: 291188354}
   - {fileID: 1115186110}
   - {fileID: 792453625}
+  - {fileID: 389806260}
   m_Father: {fileID: 1228964519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &294222510
@@ -1661,6 +1758,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.92347044, y: 0.23972775}
   m_EdgeRadius: 0
+--- !u!114 &294222511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294222508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14213c588c94a504caf2230faa6d8617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AgafaObjecte
+  textPrimeraIteraccio: "Aquesta taula \xE9s on treballa la mare, quan no est\xE0
+    treballant a vegades me la deixa per provar-hi coses, l\u2019\xFAltim invent
+    ha sigut una poci\xF3 de salut millorada, potser la necessito aix\xED que l\u2019agafar\xE9."
+  textSegonaIteraccio: "Aquesta taula \xE9s on treballa la mare, quan no est\xE0
+    treballant a vegades me la deixa per provar-hi coses."
+  pocio: 1
+  numPocions: 3
+  objecte: {fileID: 389806259}
 --- !u!1 &329628841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,7 +1788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329628843}
   - component: {fileID: 329628842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1761,7 +1878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338900714}
   - component: {fileID: 338900713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1841,6 +1958,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 869038330}
   m_LocalEulerAnglesHint: {x: -0.185, y: -1.402, z: 15.078}
+--- !u!1 &360157820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+  m_PrefabInstance: {fileID: 78726948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &389806259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389806260}
+  m_Layer: 6
+  m_Name: Pocions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389806260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389806259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 525018639}
+  - {fileID: 1863272004}
+  - {fileID: 291188354}
+  m_Father: {fileID: 294222509}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &390160665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1914,7 +2070,7 @@ PrefabInstance:
       addedObject: {fileID: 273180330}
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 901b6d47ecb24e340ad1440b415b63af, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 273180329}
+      addedObject: {fileID: 273180333}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 901b6d47ecb24e340ad1440b415b63af, type: 3}
 --- !u!1 &397448514
 GameObject:
@@ -1926,7 +2082,8 @@ GameObject:
   m_Component:
   - component: {fileID: 397448515}
   - component: {fileID: 397448516}
-  m_Layer: 0
+  - component: {fileID: 397448517}
+  m_Layer: 6
   m_Name: PilaLlibresEldrin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1985,7 +2142,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.005887991, y: -0.0016686469}
+  m_Offset: {x: -0.00011916086, y: 0.0005891472}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1995,13 +2152,42 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.10213019, y: 0.10952878}
+  m_Size: {x: 0.15090716, y: 0.146029}
   m_EdgeRadius: 0
+--- !u!114 &397448517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397448514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "No hi ha res interessant, s\xF3n els papers de la informaci\xF3 que he apilat
+    sobre la malaltia de la meva germana, apuntant hip\xF2tesis, l\u2019\xFAltima,
+    la malaltia est\xE0 relacionada amb els dracs, radiaci\xF3?, fills dels dracs?
+    (\xE9s tot aix\xF2 possible), dies despr\xE9s vaig taxar-ho tot."
 --- !u!4 &421701234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
   m_PrefabInstance: {fileID: 78726948}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &421701236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360157820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
 --- !u!1 &426623507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,7 +2198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426623509}
   - component: {fileID: 426623508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_15 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2104,6 +2290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CofreEldrin
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8401963
@@ -2159,6 +2349,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 629681119}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 629681121}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
 --- !u!1 &489472671
 GameObject:
@@ -2255,7 +2448,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 985583293}
-  - {fileID: 2018658319}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2274,6 +2466,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: aae7845ccc29cff4f91352dcc719d129, type: 3}
       propertyPath: m_Name
       value: mesarectangularEulalia
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: aae7845ccc29cff4f91352dcc719d129, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: aae7845ccc29cff4f91352dcc719d129, type: 3}
       propertyPath: m_LocalScale.x
@@ -2338,7 +2534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506446813}
   - component: {fileID: 506446812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,7 +2624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525018639}
   - component: {fileID: 525018638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2502,17 +2698,35 @@ Transform:
   m_GameObject: {fileID: 525018637}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.025772516, y: 0.13649327, z: 0}
+  m_LocalPosition: {x: 0.0257725, y: 0.13649328, z: 0}
   m_LocalScale: {x: 1.343066, y: 0.8145051, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 294222509}
+  m_Father: {fileID: 389806260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &525764961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
   m_PrefabInstance: {fileID: 45150240}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &528674526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+  m_PrefabInstance: {fileID: 45150240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &528674528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528674526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
 --- !u!1 &554267852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,6 +4444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CadiraMenjador5
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_LocalScale.x
       value: -1.5871818
@@ -4281,7 +4499,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1837004354}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
 --- !u!1 &565176973 stripped
 GameObject:
@@ -4339,6 +4560,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 3fa02c7925235584681d2ceb5c284d58, type: 3}
   m_PrefabInstance: {fileID: 1738768629}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &565176977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565176973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: Ara mateix no en tinc son.
 --- !u!1 &569174396
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,7 +4583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 569174398}
   - component: {fileID: 569174397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4439,7 +4673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578787713}
   - component: {fileID: 578787712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4575,6 +4809,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.17}
   m_EdgeRadius: 0
+--- !u!114 &629681121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629681116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "No me'n recordo on \xE9s la clau."
 --- !u!4 &633741927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
@@ -4643,7 +4890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727520986}
   - component: {fileID: 727520985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4723,6 +4970,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1545240602}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &739661325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+  m_PrefabInstance: {fileID: 941939999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &740304162
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,6 +5123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SacoAbiertoAlmacen
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 6d65b07bb6e822c41a7aaedb95d38234, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 6d65b07bb6e822c41a7aaedb95d38234, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.383007
@@ -4925,6 +5181,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6d65b07bb6e822c41a7aaedb95d38234, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1820318056}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 6d65b07bb6e822c41a7aaedb95d38234, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1820318054}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 6d65b07bb6e822c41a7aaedb95d38234, type: 3}
 --- !u!1 &792453623
@@ -4937,7 +5196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792453625}
   - component: {fileID: 792453624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5027,7 +5286,8 @@ GameObject:
   m_Component:
   - component: {fileID: 798596657}
   - component: {fileID: 798596658}
-  m_Layer: 0
+  - component: {fileID: 798596659}
+  m_Layer: 6
   m_Name: EstanteriesMenjador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5097,6 +5357,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5096011, y: 0.2782175}
   m_EdgeRadius: 0
+--- !u!114 &798596659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798596656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: En aquestes estanteries hi ha una barreja, entre llibres de la mare i alguns
+    llibres de cuina amb receptes.
 --- !u!1 &807059087
 GameObject:
   m_ObjectHideFlags: 0
@@ -5297,7 +5571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826771782}
   - component: {fileID: 826771781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5377,6 +5651,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 798596657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &839471594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2253911629886400664, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_Name
+      value: eulaliaNPCabajo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.2569723
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.860379
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 590bce5c9637176449f6674174463863, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1160356261127867848, guid: 590bce5c9637176449f6674174463863, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 590bce5c9637176449f6674174463863, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150287982}
+  m_SourcePrefab: {fileID: -8435245712485981826, guid: 590bce5c9637176449f6674174463863, type: 3}
 --- !u!1 &852952662
 GameObject:
   m_ObjectHideFlags: 0
@@ -5387,7 +5730,8 @@ GameObject:
   m_Component:
   - component: {fileID: 852952663}
   - component: {fileID: 852952664}
-  m_Layer: 0
+  - component: {fileID: 852952665}
+  m_Layer: 6
   m_Name: MesitaNitBegudaEulalia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5457,6 +5801,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.115030855, y: 0.12036524}
   m_EdgeRadius: 0
+--- !u!114 &852952665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852952662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14213c588c94a504caf2230faa6d8617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AgafaObjecte
+  textPrimeraIteraccio: No crec que la mare la trobi a faltar.
+  textSegonaIteraccio: La tauleta de nit de la mare.
+  pocio: 1
+  numPocions: 1
+  objecte: {fileID: 2131853860}
 --- !u!1 &856063325
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,7 +5828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856063327}
   - component: {fileID: 856063326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5614,6 +5975,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 987001178}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 987001180}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: c03c93d2f986f66478d90b0c29d168a8, type: 3}
 --- !u!1 &869038329
 GameObject:
@@ -5625,7 +5989,8 @@ GameObject:
   m_Component:
   - component: {fileID: 869038330}
   - component: {fileID: 869038331}
-  m_Layer: 0
+  - component: {fileID: 869038332}
+  m_Layer: 6
   m_Name: TaulaMenjador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5701,6 +6066,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.9116113, y: 0.25156215}
   m_EdgeRadius: 0
+--- !u!114 &869038332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869038329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Hi ha plats nets, i alguna recepta arrancada d\u2019algun llibre"
 --- !u!1 &886263718
 GameObject:
   m_ObjectHideFlags: 0
@@ -5711,7 +6089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 886263720}
   - component: {fileID: 886263719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5801,7 +6179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 890097740}
   - component: {fileID: 890097739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5898,6 +6276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CadiraMenjador2
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4625021
@@ -5949,7 +6331,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706991732}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
 --- !u!1 &912119440
 GameObject:
@@ -6121,6 +6506,11 @@ Transform:
   - {fileID: 819766123}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &937350871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+  m_PrefabInstance: {fileID: 564773788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &941939999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6132,6 +6522,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_Name
       value: CadiraMenjador3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_LocalScale.x
@@ -6184,7 +6578,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1763940870}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
 --- !u!1 &948900105
 GameObject:
@@ -6196,7 +6593,8 @@ GameObject:
   m_Component:
   - component: {fileID: 948900106}
   - component: {fileID: 948900107}
-  m_Layer: 0
+  - component: {fileID: 948900108}
+  m_Layer: 6
   m_Name: CamesHabitacioEulalia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6266,6 +6664,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.559599, y: 0.40623945}
   m_EdgeRadius: 0
+--- !u!114 &948900108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948900105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: El llit de la mare.
 --- !u!1 &985583292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,13 +6706,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2018658319}
   m_Father: {fileID: 489472675}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 400.6011, y: 100.1}
-  m_SizeDelta: {x: 776.9787, y: 159.65}
+  m_AnchoredPosition: {x: 954.82196, y: 188.233}
+  m_SizeDelta: {x: 1885.4204, y: 335.916}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985583294
 MonoBehaviour:
@@ -6397,6 +6809,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.18, y: 0.17}
   m_EdgeRadius: 0
+--- !u!114 &987001180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987001175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "La mare t\xE9 la clau, nom\xE9s hi ha herbes, gots, envasos per guardar-hi
+    les herbes, sempre ha estat tancada per no fer cap ximpleria quan \xE9rem petits."
 --- !u!4 &1020242909 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
@@ -6519,6 +6945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sillaDeLadoEldrin
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.80772454
@@ -6570,7 +7000,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1934276490}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1934276491}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
 --- !u!1 &1061208948
 GameObject:
@@ -10623,7 +11059,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1104333280}
   - component: {fileID: 1104333281}
-  m_Layer: 0
+  - component: {fileID: 1104333282}
+  m_Layer: 6
   m_Name: BarrilsAlmacen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10694,6 +11131,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2481677, y: 0.5974102}
   m_EdgeRadius: 0
+--- !u!114 &1104333282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104333279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Aqu\xED guarda la mare el vi, a vegades ho treu per al sopar o el dinar
+    si hi ha visita o \xE9s un dia especial, si no ho utilitza per a la seva potinga
+    per a la botiga."
 --- !u!1 &1115186108
 GameObject:
   m_ObjectHideFlags: 0
@@ -10704,7 +11156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115186110}
   - component: {fileID: 1115186109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10795,6 +11247,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_Name
       value: mesaRectangular (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_SortingOrder
@@ -10943,6 +11399,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1228964519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1150287981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 590bce5c9637176449f6674174463863, type: 3}
+  m_PrefabInstance: {fileID: 839471594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1150287982
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150287981}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 091095adfefaa30468e7a6d496a11056, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1167982377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
@@ -10999,6 +11482,98 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
   m_PrefabInstance: {fileID: 1683890965}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1167982381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167982377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c4344974b736b46903e6fe8dee20b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MesitadeNit
+  textPrimeraIteraccio: "Agafar\xE9 la poci\xF3 de salut que guardava per si em feia
+    falta."
+  textSegonaIteraccio: No queda res a cap calaix, ja ho he agafat tot.
+  pocio: 1
+  numPocions: 1
+--- !u!1 &1170485366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1170485367}
+  - component: {fileID: 1170485369}
+  - component: {fileID: 1170485368}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1170485367
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170485366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1228611215}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1170485368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170485366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1170485369
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170485366}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1190214357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11010,6 +11585,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_Name
       value: mesaRectangular
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_LocalScale.x
@@ -11074,7 +11653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1197095688}
   - component: {fileID: 1197095687}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11154,6 +11733,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 869038330}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 35.341}
+--- !u!1 &1207834041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207834043}
+  - component: {fileID: 1207834042}
+  m_Layer: 0
+  m_Name: EntradaEldrin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1207834042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207834041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4d8f5e9bd50a14e9661d62f5efe353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntryPoint
+  ID: EntradaEldrin
+--- !u!4 &1207834043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207834041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.55, y: -9.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1213855883
 GameObject:
   m_ObjectHideFlags: 0
@@ -11164,7 +11788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213855885}
   - component: {fileID: 1213855884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11254,7 +11878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215258021}
   - component: {fileID: 1215258020}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11344,7 +11968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1219559626}
   - component: {fileID: 1219559625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_14 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11496,6 +12120,108 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1695941649}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+--- !u!1 &1228611211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228611215}
+  - component: {fileID: 1228611214}
+  - component: {fileID: 1228611213}
+  - component: {fileID: 1228611212}
+  m_Layer: 5
+  m_Name: "FadePerTransportaci\xF3"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1228611212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228611211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1228611213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228611211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1228611214
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228611211}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1228611215
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228611211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1170485367}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1228964518
 GameObject:
   m_ObjectHideFlags: 0
@@ -11546,7 +12272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247007093}
   - component: {fileID: 1247007092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_13 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11636,7 +12362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256682537}
   - component: {fileID: 1256682536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_16 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11863,7 +12589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1286792237}
   - component: {fileID: 1286792236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11916,7 +12642,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1813019937281960044, guid: b5dbc5c2157620844a60453a94581c4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11953,7 +12679,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1346174422}
   - component: {fileID: 1346174423}
-  m_Layer: 0
+  - component: {fileID: 1346174424}
+  m_Layer: 6
   m_Name: PilaLlibresEldrin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12012,7 +12739,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0029756352, y: -0.0009313561}
+  m_Offset: {x: 0.0029772818, y: -0.000088080764}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12022,8 +12749,24 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.112871185, y: 0.10607318}
+  m_Size: {x: 0.14604354, y: 0.17025036}
   m_EdgeRadius: 0
+--- !u!114 &1346174424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346174421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Altres papers que jo vaig escriure, aqu\xED hi ha l\u2019evoluci\xF3 de
+    la malaltia de la germana, al principi nom\xE9s el seu cos desprenia calor, a
+    vegades \xE0rees de la seva pell tenien un lleuger to daurat, despr\xE9s va comen\xE7ar
+    l\u2019alteraci\xF3, el no retorn."
 --- !u!1 &1346564393
 GameObject:
   m_ObjectHideFlags: 0
@@ -12034,7 +12777,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1346564394}
   - component: {fileID: 1346564395}
-  m_Layer: 0
+  - component: {fileID: 1346564396}
+  m_Layer: 6
   m_Name: MesitaNitLlibreEulalia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12104,6 +12848,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.111158304, y: 0.11735262}
   m_EdgeRadius: 0
+--- !u!114 &1346564396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346564393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "\xC9s el llibre que s\u2019est\xE0 llegint la mare, \u201CLa Cr\xF2nica
+    de la Portadora\u201D"
 --- !u!4 &1347983150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
@@ -12119,7 +12877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384146822}
   - component: {fileID: 1384146821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12209,7 +12967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447608754}
   - component: {fileID: 1447608753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12389,7 +13147,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1467472357}
   - component: {fileID: 1467472358}
-  m_Layer: 0
+  - component: {fileID: 1467472359}
+  m_Layer: 6
   m_Name: EstanteriasEldrin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12460,6 +13219,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7574209, y: 0.28810084}
   m_EdgeRadius: 0
+--- !u!114 &1467472359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467472356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "M'he llegit tots aquests llibres mil cops, per trobar respostes a la malaltia
+    de la meva germana, per saber que est\xE0 passant amb el m\xF3n, que est\xE0
+    canviant."
 --- !u!4 &1498946332 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: aae7845ccc29cff4f91352dcc719d129, type: 3}
@@ -12531,6 +13305,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2079323524}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2079323522}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
 --- !u!1001 &1504876025
@@ -12544,6 +13321,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
       propertyPath: m_Name
       value: SacoEldrin
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
       propertyPath: m_LocalScale.x
@@ -12596,7 +13377,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721460336}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1721460337}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
 --- !u!1 &1511758529
 GameObject:
@@ -12608,7 +13395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511758531}
   - component: {fileID: 1511758530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12823,7 +13610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1520274406}
   - component: {fileID: 1520274405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13022,6 +13809,11 @@ Transform:
   - {fileID: 282754077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1529226398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+  m_PrefabInstance: {fileID: 1031360244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1545240601
 GameObject:
   m_ObjectHideFlags: 0
@@ -13032,7 +13824,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1545240602}
   - component: {fileID: 1545240603}
-  m_Layer: 0
+  - component: {fileID: 1545240604}
+  m_Layer: 6
   m_Name: TaulaGranMenjador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13117,6 +13910,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.39971957, y: 0.76750624}
   m_EdgeRadius: 0
+--- !u!114 &1545240604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545240601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Amb la visita del sacerdot inesperada no hi ha hagut temps a recollir-la,
+    els plats de la mare i el meu estan usats i acabats, sempre m\u2019agrada posar
+    el de la germana esperant a qu\xE8 en sort\xED de l\u2019habitaci\xF3, tristament
+    mai ho fa, i \xE9s la mare qui li porta el menjar al llit."
 --- !u!1 &1554198031
 GameObject:
   m_ObjectHideFlags: 0
@@ -13266,6 +14075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mesaRectangular (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -13333,7 +14146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1569336998}
   - component: {fileID: 1569336997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13513,7 +14326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1594143450}
   - component: {fileID: 1594143449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_16 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13649,7 +14462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642459241}
   - component: {fileID: 1642459240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_14 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13739,7 +14552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1668608923}
   - component: {fileID: 1668608922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13831,6 +14644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MesitaDeNocheEldrin
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.77172387
@@ -13886,6 +14703,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1167982378}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1167982381}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 1840b6d9fbf7f534780e12e41cf0515d, type: 3}
 --- !u!1 &1695332137
 GameObject:
@@ -14123,6 +14943,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1703766116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
+  m_PrefabInstance: {fileID: 908207448}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1706129553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14134,6 +14959,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_Name
       value: mesaRectangular (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_SortingOrder
@@ -14197,6 +15026,84 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 0cabe123b7b78824692cef4e85e03592, type: 3}
   m_PrefabInstance: {fileID: 908207448}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706991732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703766116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
+--- !u!1 &1721460334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+  m_PrefabInstance: {fileID: 1504876025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1721460336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721460334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "No hi ha res a dins, tenia els meus estalvis per l\u2019acad\xE8mia, li
+    ho vaig donar tot a la mare per a la meva germana."
+--- !u!61 &1721460337
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721460334}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_EdgeRadius: 0
 --- !u!1001 &1738768629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14211,7 +15118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: 3fa02c7925235584681d2ceb5c284d58, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 3fa02c7925235584681d2ceb5c284d58, type: 3}
       propertyPath: m_LocalScale.x
@@ -14268,6 +15175,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 3fa02c7925235584681d2ceb5c284d58, type: 3}
       insertIndex: -1
       addedObject: {fileID: 565176974}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 3fa02c7925235584681d2ceb5c284d58, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 565176977}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 3fa02c7925235584681d2ceb5c284d58, type: 3}
 --- !u!1 &1751615166
 GameObject:
@@ -14279,7 +15189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1751615168}
   - component: {fileID: 1751615167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14369,7 +15279,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1758551547}
   - component: {fileID: 1758551548}
-  m_Layer: 0
+  - component: {fileID: 1758551549}
+  m_Layer: 6
   m_Name: TaulaEulalia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14441,6 +15352,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.51943016, y: 0.22218677}
   m_EdgeRadius: 0
+--- !u!114 &1758551549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758551546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "S\xF3n factures, la mare no vol que l\u2019ajudi amb la botiga d\u2019herbes
+    o d\u2019una altra forma, pensa que pot ella sola amb tot."
 --- !u!1 &1760013500
 GameObject:
   m_ObjectHideFlags: 0
@@ -14521,6 +15446,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
   m_PrefabInstance: {fileID: 941939999}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1763940870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739661325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
 --- !u!1 &1766091168
 GameObject:
   m_ObjectHideFlags: 0
@@ -14621,7 +15559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778822884}
   - component: {fileID: 1778822883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_14 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14713,6 +15651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barril (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -14790,7 +15732,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1789621648
 Animator:
   serializedVersion: 7
@@ -15166,11 +16108,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.19, y: 0.19}
   m_EdgeRadius: 0
+--- !u!114 &1820318056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820318051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "No queda res, hi ha restes d\u2019herbes."
 --- !u!4 &1837004352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
   m_PrefabInstance: {fileID: 564773788}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837004354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937350871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
 --- !u!1 &1863272002
 GameObject:
   m_ObjectHideFlags: 0
@@ -15181,7 +16149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1863272004}
   - component: {fileID: 1863272003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15255,11 +16223,11 @@ Transform:
   m_GameObject: {fileID: 1863272002}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09250387, y: 0.1354774, z: 0}
+  m_LocalPosition: {x: 0.09250384, y: 0.13547741, z: 0}
   m_LocalScale: {x: 1.343066, y: 0.8145051, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 294222509}
+  m_Father: {fileID: 389806260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1865884793 stripped
 Transform:
@@ -15277,6 +16245,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_Name
       value: sillaDeLadoEulalia
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       propertyPath: m_LocalScale.x
@@ -15333,6 +16305,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2012201473}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2012201475}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
 --- !u!1 &1887434114
 GameObject:
@@ -15344,7 +16319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887434116}
   - component: {fileID: 1887434115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15435,6 +16410,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_Name
       value: Barril (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 35e3cfb1323a55241a7862c6ed4c744d, type: 3}
       propertyPath: m_SortingOrder
@@ -15549,6 +16528,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.26, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1901577552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901577547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "\xC9s l\u2019armari de la mare, encara hi ha roba del pare, no ha pogut
+    donar-li al sacerdot encara, tot ha sigut com una bola de neu, la mort del pare
+    i seguit la meva germana\u2026"
 --- !u!1 &1905061905
 GameObject:
   m_ObjectHideFlags: 0
@@ -15695,6 +16689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1912737460}
   - component: {fileID: 1912737461}
+  - component: {fileID: 1912737462}
   m_Layer: 0
   m_Name: EstanteriaAlquimiaAlmacen
   m_TagString: Untagged
@@ -15765,11 +16760,84 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.4795118, y: 0.28011763}
   m_EdgeRadius: 0
+--- !u!114 &1912737462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912737459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Est\xE0 plena de pocions, per\xF2 no puc agafar cap, ens fa falta els diners
+    i aquestes la mare les vendr\xE0 a la botiga."
 --- !u!4 &1934276488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
   m_PrefabInstance: {fileID: 1031360244}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1934276490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529226398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
+--- !u!61 &1934276491
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529226398}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0050000027, y: 0.155}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.4666667, y: -0.03448276}
+    oldSize: {x: 0.15, y: 0.29}
+    newSize: {x: 0.15, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.15, y: 0.29000002}
+  m_EdgeRadius: 0
 --- !u!1 &1957066543
 GameObject:
   m_ObjectHideFlags: 0
@@ -15780,7 +16848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1957066545}
   - component: {fileID: 1957066544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15870,7 +16938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1968815995}
   - component: {fileID: 1968815994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15960,7 +17028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977644796}
   - component: {fileID: 1977644795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16045,6 +17113,65 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
   m_PrefabInstance: {fileID: 2056456576}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1978044225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89900417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: "Nom\xE9s hi ha herbes per a la botiga de la mare."
+--- !u!61 &1978044226
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89900417}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_EdgeRadius: 0
 --- !u!1 &2012201470 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 185873a96a1c17b43abe0e8de34f8499, type: 3}
@@ -16101,6 +17228,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.15, y: 0.29000002}
   m_EdgeRadius: 0
+--- !u!114 &2012201475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012201470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
 --- !u!1 &2018658318
 GameObject:
   m_ObjectHideFlags: 0
@@ -16126,16 +17266,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018658318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 489472675}
+  m_Father: {fileID: 985583293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000012398, y: -121.97}
+  m_AnchoredPosition: {x: -492, y: 49.969}
   m_SizeDelta: {x: 720.3146, y: 99.9373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018658320
@@ -16185,8 +17325,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19
-  m_fontSizeBase: 19
+  m_fontSize: 46
+  m_fontSizeBase: 46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -16223,7 +17363,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 2.40419}
+  m_margin: {x: 0, y: 0, z: -1006.7502, w: 2.40419}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16248,6 +17388,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_Name
       value: mesaRectangular (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: fd0eab2f25497634bb6b4b46860d8acf, type: 3}
       propertyPath: m_SortingOrder
@@ -16318,6 +17462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saco Almacen
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -16373,7 +17521,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978044226}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978044225}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: b288ec8858cb4a442a1d5be041facff6, type: 3}
 --- !u!1 &2065049741
 GameObject:
@@ -16385,7 +17539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065049743}
   - component: {fileID: 2065049742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16521,6 +17675,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.16, y: 0.29000002}
   m_EdgeRadius: 0
+--- !u!114 &2079323524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079323519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f505bb075469dd4eb70fc72ee1e0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjecteLectura
+  text: No tinc temps per seure a la cadira.
 --- !u!1 &2081167911
 GameObject:
   m_ObjectHideFlags: 0
@@ -16531,7 +17698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2081167913}
   - component: {fileID: 2081167912}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_12 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16626,7 +17793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118480019}
   - component: {fileID: 2118480018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_14 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16716,7 +17883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131853862}
   - component: {fileID: 2131853861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: muebles casa_11 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16769,7 +17936,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8768401397659030909, guid: b5dbc5c2157620844a60453a94581c4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16816,3 +17983,7 @@ SceneRoots:
   - {fileID: 1228964519}
   - {fileID: 265109060}
   - {fileID: 1697371786}
+  - {fileID: 59975240}
+  - {fileID: 1228611215}
+  - {fileID: 1207834043}
+  - {fileID: 839471594}
