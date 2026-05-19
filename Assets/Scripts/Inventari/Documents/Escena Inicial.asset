@@ -12,6 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ab844e47f3ac74386b1073f515c824, type: 3}
   m_Name: Escena Inicial
   m_EditorClassIdentifier: Assembly-CSharp::DocumentData
-  id: 
-  titol: 
-  contingut: 
+  id: 6
+  titol: "Diari Eldrin p\xE0gina 6"
+  contingut: "Ja no pot fer res el sacerdot.\nAvui ens ho ha dit clarament. Diu que
+    les Ll\xE0grimes tampoc fan miracles. Per\xF2 no ho entenc. No se suposa que
+    aix\xF2 \xE9s exactament el que fan? No se suposa que les Ll\xE0grimes curen
+    all\xF2 que la medicina no pot? Sempre ens han ensenyat aix\xF2, sempre ens han
+    fet creure que eren una benedicci\xF3 capa\xE7 de salvar vides quan ja no quedava
+    esperan\xE7a.\nLlavors, per qu\xE8 amb ella no funcionen?\nPer qu\xE8 la meva
+    germana continua empitjorant?\nNo entenc res. En aquesta \xE8poca ja no entenc
+    res. Cada resposta porta a m\xE9s preguntes, i cada persona a qui demano ajuda
+    sembla saber menys que l\u2019anterior. Els sacerdots dubten, els sanadors callen,
+    i jo nom\xE9s veig com el temps passa mentre ella es consumeix davant nostre.\nEstic
+    desesperat.\nVull fer alguna cosa. Necessito fer alguna cosa. No puc continuar
+    mirant-la sense actuar, esperant que passi un miracle que mai arriba.\nI crec
+    que aquesta desesperaci\xF3 ha fet que alguna cosa em senti.\nNo s\xE9 qu\xE8
+    era. No s\xE9 el seu nom. No s\xE9 res d\u2019ell\u2026 o d\u2019ella, si \xE9s
+    que tan sols t\xE9 g\xE8nere. Per\xF2 va parlar-me. I em va prometre ajudar-me.\nVa
+    prometre acabar amb la malaltia.\nNo s\xE9 per qu\xE8 l\u2019he cregut. Potser
+    perqu\xE8 ja no em queda res m\xE9s a qu\xE8 aferrar-me. Potser perqu\xE8 quan
+    alg\xFA est\xE0 tan desesperat com jo, qualsevol petita esperan\xE7a sembla real.\nSento
+    que \xE9s l\u2019\xFAltima esperan\xE7a que tinc.\nAix\xED que he acceptat.\nNo
+    s\xE9 qu\xE8 significa exactament aix\xF2 ni qu\xE8 passar\xE0 ara. Nom\xE9s
+    s\xE9 el que em va dir despr\xE9s: que el sacerdot s\u2019havia deixat un paper
+    a l\u2019habitaci\xF3 de la meva germana.\n\xC9s estrany, perqu\xE8 ning\xFA
+    havia mencionat cap paper.\nAra hi anir\xE9 a comprovar-ho."
