@@ -274,10 +274,10 @@ TextureImporter:
       name: TileSet_0
       rect:
         serializedVersion: 2
-        x: 79
-        y: 175
-        width: 23
-        height: 15
+        x: 73
+        y: 169
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,12 +296,12 @@ TextureImporter:
       name: TileSet_1
       rect:
         serializedVersion: 2
-        x: 114
-        y: 186
+        x: 132
+        y: 151
         width: 4
         height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 1.3377819, y: -0.5199127}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -384,12 +384,12 @@ TextureImporter:
       name: TileSet_5
       rect:
         serializedVersion: 2
-        x: 186
-        y: 186
+        x: 176
+        y: 83
         width: 6
         height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.68495685, y: -1.2016245}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -406,7 +406,7 @@ TextureImporter:
       name: TileSet_6
       rect:
         serializedVersion: 2
-        x: 65
+        x: 61
         y: 168
         width: 11
         height: 17
@@ -472,10 +472,10 @@ TextureImporter:
       name: TileSet_9
       rect:
         serializedVersion: 2
-        x: 98
-        y: 170
-        width: 4
-        height: 4
+        x: 97
+        y: 169
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,8 +494,8 @@ TextureImporter:
       name: TileSet_10
       rect:
         serializedVersion: 2
-        x: 114
-        y: 170
+        x: 124
+        y: 155
         width: 4
         height: 4
       alignment: 0
@@ -582,10 +582,10 @@ TextureImporter:
       name: TileSet_14
       rect:
         serializedVersion: 2
-        x: 186
+        x: 168
         y: 168
-        width: 6
-        height: 6
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,7 +673,7 @@ TextureImporter:
         x: 74
         y: 145
         width: 19
-        height: 27
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1546,6 +1546,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: TileSet_58
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 150
+        width: 1
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac12c06c5cf65549abf73219c078818
+      internalID: 2014575336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1616,6 +1638,7 @@ TextureImporter:
       TileSet_55: 8650857287153177800
       TileSet_56: -5220270223039394446
       TileSet_57: -1224487362431401745
+      TileSet_58: 2014575336
       TileSet_6: 1303555410413672225
       TileSet_7: -3462126092104230500
       TileSet_8: 3818911086006376876
