@@ -116,7 +116,7 @@ Transform:
   m_GameObject: {fileID: 2097141989135692489}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.004, y: -0.038, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -169,7 +169,7 @@ SpriteRenderer:
   m_SortingLayerID: -1372178935
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6179537849645042008, guid: 273369e2df19bea4fb1b3cafa9f9f737, type: 3}
+  m_Sprite: {fileID: -5514713145040860197, guid: 02cff1ee11b25a44fb2bdcc3d96f4eb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 3986026104071346452}
   - component: {fileID: 3796874467487629246}
   m_Layer: 0
-  m_Name: EldrinCreature
+  m_Name: CatherineCreature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -296,8 +296,8 @@ Transform:
   m_GameObject: {fileID: 2521753971046226797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.461, y: 0.144, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1466108894086583103}

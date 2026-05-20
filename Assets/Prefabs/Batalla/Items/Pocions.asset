@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fad3799c7178f9942ab796a924e60534, type: 3}
-  m_Name: Potion
+  m_Name: Pocions
   m_EditorClassIdentifier: 
   itemName: Potion
   healValue: 10

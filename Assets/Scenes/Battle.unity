@@ -198,15 +198,15 @@ SpriteRenderer:
   m_SortingLayerID: -317756115
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -436354646, guid: 6281e8eae8b4cad4d808ff9c15ccfca2, type: 3}
+  m_Sprite: {fileID: -92138599614758986, guid: 34db08188a1850a45ab9813dea8e2bf1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.24, y: 0.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &23957942
@@ -1593,7 +1593,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2742,7 +2742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22d0bffcc9ce8c6418e9364b53c13ad4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterName: Human
+  masterName: Your Turn
 --- !u!1 &884576185
 GameObject:
   m_ObjectHideFlags: 0
@@ -4039,7 +4039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ccac4ae6e4a06a4bb0a6983e356ed57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterName: AI
+  masterName: Monster
 --- !u!1 &1276338444
 GameObject:
   m_ObjectHideFlags: 0
@@ -5749,7 +5749,7 @@ MonoBehaviour:
   targetTilemap: {fileID: 258008320}
   gameCamera: {fileID: 519420031}
   cursor: {fileID: 18669118}
-  pathMarkerPrfb: {fileID: 5371728235849376404, guid: f749fa57041635d42b4d899f2fc67b17, type: 3}
+  pathMarkerPrfb: {fileID: 5371728235849376404, guid: d1e4d28e88ef1944ba7d430ea78f9eff, type: 3}
   pathMarkerHolder: {fileID: 1494599244}
 --- !u!156049354 &2009275813
 Grid:
