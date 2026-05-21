@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: Sacerdot
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Eldrin
+    textDialeg: Vull baixar a la masmorra
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: 'No, es un lloc perillos
+
+'
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Ho fare per la meva germana
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: La reina blanca no m'ho perdonaria
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: I si et perdonaria, deixar morir a algu? Perque es el que esteu fent
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: Ja basta Eldrin, ho em intentat tot, pero si i vols baixar, baixa
+      pero amb la teva responsabilitat.
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
