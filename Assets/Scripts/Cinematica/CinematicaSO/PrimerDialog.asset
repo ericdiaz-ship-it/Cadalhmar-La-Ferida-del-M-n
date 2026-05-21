@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: PrimerDialog
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Sacerdot
+    textDialeg: "No podem fer res, ja ens hem quedat sense opcions ho sento Eul\xE0lia"
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Estava parlant de la meva germana, Anora. Per a ella no hi quedaven
+      opcions; moriria\u2026 per\xF2 aix\xF2 no, no pot ser. "
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Algunes cicatrius de l\u2019era Cynath es queden gravades per sempre;
+      la meva germana \xE9s una d\u2019elles, recordant-nos que ni les ll\xE0grimes,
+      per poderoses que siguin, poden curar-ho tot.\n\n"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: Encara hi ha opcions
+    imatgePersonatge: {fileID: -1248478597890262744, guid: 5e83707b4a4c23d468c8854fb65bf655, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Sento aquesta veu, per\xF2 ni la meva mare ni el sacerdot han parlat.\r\n"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Eulalia
+    textDialeg: "Gr\xE0cies, pare, gr\xE0cies a vost\xE8 per intentar-ho tot"
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: No ho ha fet tot
+    imatgePersonatge: {fileID: -1248478597890262744, guid: 5e83707b4a4c23d468c8854fb65bf655, type: 3}
