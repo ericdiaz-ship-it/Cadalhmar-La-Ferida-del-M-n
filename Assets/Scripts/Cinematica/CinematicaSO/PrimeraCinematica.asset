@@ -37,7 +37,7 @@ MonoBehaviour:
     velocitat: 1
     dialeg: {fileID: 11400000, guid: 5e6de8089f6c2fd458f4da7a468a3e13, type: 2}
     tempsEspera: 0
-  - tipusPas: 0
+  - tipusPas: 1
     nomActor: Eldrin
     "nomDest\xED": PuntBEldrin
     velocitat: 1
