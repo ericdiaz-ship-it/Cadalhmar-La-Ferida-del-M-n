@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2381999265904890602, guid: dbc47ae12fa26114eb1666b5ed3e80fb, type: 3}
+  m_Sprite: {fileID: 2298947746345540317, guid: 27e22e63b28993746b5cacdaf4713a6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146,8 +146,8 @@ MonoBehaviour:
   patrolRadius: 5
   changeDirectionTime: 2
   creatureData:
-    id: Catherine
-    prefab: {fileID: 2521753971046226797, guid: 271e1c62fe9d7ba4aab09aa0fc721f70, type: 3}
+    id: Enemic
+    prefab: {fileID: 2521753971046226797, guid: cf98e526e94d5a14494d97b20a8cd9b3, type: 3}
     isMinion: 0
     stats:
       elementalType: 0
