@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: EscenaFinal
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Jo
+    textDialeg: Catherine que fas?
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Catherine
+    textDialeg: "Ho llegir\xE9, ho intentar\xE9, total ning\xFA m'espera, a tu la
+      teva fam\xEDlia et trobar\xE0 a faltar, la meva..."
+    imatgePersonatge: {fileID: -5456494341613952693, guid: 11f241d0f2f4e5e4788a2ac5c5986b53, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "No diguis aix\xF2, primer ho estudiarem no ho llegeixis."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Per\xF2 va ser molt tard, Catherine va comen\xE7ar a parlar una
+      llengua que no entenia, ni ella ni jo."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Va estar aix\xED una estona, jo no sabia qu\xE8 en podia fer, ja
+      que no em podia moure."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Quan va acabar, silenci, no aquell silencia agradable, sin\xF3 un
+      silenci horror\xF3s, un silenci desagradable."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "I en aquell moment Catherine va comen\xE7ar a canviar, va comen\xE7ar
+      a mutar."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}

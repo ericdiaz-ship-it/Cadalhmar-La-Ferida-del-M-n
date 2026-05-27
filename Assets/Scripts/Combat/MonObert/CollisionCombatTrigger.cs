@@ -32,6 +32,6 @@ public class CollisionCombatTrigger : MonoBehaviour
         }
 
         Debug.Log("[CCT] Iniciando batalla con: " + enemy.gameObject.name);
-        OverworldManager.current.StartBattleWithEnemy(enemy.creatureData);
+        OverworldManager.current.StartBattleWithEnemy(enemy);
     }
 }

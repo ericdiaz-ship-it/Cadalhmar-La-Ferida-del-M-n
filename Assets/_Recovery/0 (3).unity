@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 94821113}
   - component: {fileID: 94821115}
   - component: {fileID: 94821114}
-  - component: {fileID: 94821116}
   m_Layer: 0
   m_Name: MenuInci
   m_TagString: Untagged
@@ -188,19 +187,6 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
---- !u!114 &94821116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94821112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc60c2b9757d5e42bae86e34f845bb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuIniciController
-  escenaNouJoc: CasaEldrin
 --- !u!1 &389630427
 GameObject:
   m_ObjectHideFlags: 0

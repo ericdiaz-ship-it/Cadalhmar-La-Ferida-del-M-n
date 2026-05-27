@@ -17,7 +17,7 @@ public class CombatTransitionManager : MonoBehaviour
     }
 
     // This can be used to handle transitions if needed separately
-    public void TransitionToBattle(CreatureData enemy)
+    public void TransitionToBattle(EnemyAI enemy)
     {
         OverworldManager.current.StartBattleWithEnemy(enemy);
     }

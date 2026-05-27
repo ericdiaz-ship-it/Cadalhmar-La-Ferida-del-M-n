@@ -27,7 +27,7 @@ MonoBehaviour:
     imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
   - nomPersonatge: Entitat
     textDialeg: Encara hi ha opcions
-    imatgePersonatge: {fileID: -1248478597890262744, guid: 5e83707b4a4c23d468c8854fb65bf655, type: 3}
+    imatgePersonatge: {fileID: 6524474056086222057, guid: b9502a11701fe4b43a3460607c93df90, type: 3}
   - nomPersonatge: Jo
     textDialeg: "Sento aquesta veu, per\xF2 ni la meva mare ni el sacerdot han parlat.\r\n"
     imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
@@ -36,4 +36,4 @@ MonoBehaviour:
     imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
   - nomPersonatge: Entitat
     textDialeg: No ho ha fet tot
-    imatgePersonatge: {fileID: -1248478597890262744, guid: 5e83707b4a4c23d468c8854fb65bf655, type: 3}
+    imatgePersonatge: {fileID: 6524474056086222057, guid: b9502a11701fe4b43a3460607c93df90, type: 3}

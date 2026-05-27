@@ -32,18 +32,40 @@ public class OverworldEnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        // Random position within radius
-        Vector2 randomPos = (Vector2)transform.position + Random.insideUnitCircle * spawnRadius;
+        Vector2 randomPos = Vector2.zero;
+        bool validPositionFound = false;
 
-        // Instantiate enemy
+        // Intentem trobar una posició lliure de parets/obstacles (màxim 15 intents)
+        for (int i = 0; i < 15; i++)
+        {
+            randomPos = (Vector2)transform.position + Random.insideUnitCircle * spawnRadius;
+
+            // Comprovem si hi ha algun Collider (parets, aigua) en aquest punt (radi de 0.5 unitats)
+            Collider2D hitCollider = Physics2D.OverlapCircle(randomPos, 0.5f);
+            
+            // Si no toquem res, o si el que toquem és només un trigger (com una zona d'esdeveniment), la posició és vàlida
+            if (hitCollider == null || hitCollider.isTrigger)
+            {
+                validPositionFound = true;
+                break;
+            }
+        }
+
+        // Si no trobem lloc lliure, cancel·lem l'spawn aquest cop
+        if (!validPositionFound)
+        {
+            return;
+        }
+
+        // Instancia l'enemic a la posició vàlida
         GameObject enemy = Instantiate(enemyPrefab, randomPos, Quaternion.identity);
 
-        // Assign random creature data
+        // Assigna dades aleatòries de criatura
         EnemyAI enemyAI = enemy.GetComponent<EnemyAI>();
         if (enemyAI != null && possibleEnemies.Length > 0)
         {
             CreatureProfile randomProfile = possibleEnemies[Random.Range(0, possibleEnemies.Length)];
-            enemyAI.creatureData = randomProfile.GenerateDataForLevel(Random.Range(1, 6)); // Random level 1-5
+            enemyAI.creatureData = randomProfile.GenerateDataForLevel(Random.Range(1, 6)); // Nivell aleatori de 1 a 5
         }
 
         spawnedEnemies.Add(enemy);

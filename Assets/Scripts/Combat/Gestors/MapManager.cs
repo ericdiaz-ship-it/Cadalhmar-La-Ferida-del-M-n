@@ -209,8 +209,9 @@ public class MapManager : MonoBehaviour
     {
         Vector3 local = world - this.mapOffset;
 
-        int mapX = Mathf.FloorToInt(local.x);
-        int mapY = Mathf.FloorToInt(local.y);
+        // Afegim 0.1f per seguretat matemàtica (evita que 1.0f passi a ser 0.9999f i retorni la casella de sota)
+        int mapX = Mathf.FloorToInt(local.x + 0.1f);
+        int mapY = Mathf.FloorToInt(local.y + 0.1f);
 
         return new Vector2Int(mapX, mapY);
     }

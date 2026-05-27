@@ -127,7 +127,9 @@ public class BattleManager : MonoBehaviour, IMessageListener
             throw new System.Exception("Invalid Creature emplacement!");
         }
 
-        creature.transform.position = this.mapManager.SnapToTile(worldPosition);
+        Vector3 snapped = this.mapManager.SnapToTile(worldPosition);
+        snapped.y -= 0.5f; // Restem 0.5 a la Y com has demanat
+        creature.transform.position = snapped;
         this.gameCreatures.Add(creature);
     }
 
@@ -303,6 +305,15 @@ public class BattleManager : MonoBehaviour, IMessageListener
         }
 
         List<Vector3> path = this.mapManager.PredictWorldPathFor(creature.transform.position, targetPos);
+        
+        // Restem 0.5 a la Y de cada punt del path abans de passar-ho
+        for (int i = 0; i < path.Count; i++)
+        {
+            Vector3 p = path[i];
+            p.y -= 0.5f;
+            path[i] = p;
+        }
+
         creature.FollowPath(path.ToArray());
     }
 

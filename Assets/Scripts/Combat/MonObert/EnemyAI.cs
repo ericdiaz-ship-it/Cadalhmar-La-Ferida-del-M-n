@@ -14,7 +14,7 @@ public class EnemyAI : MonoBehaviour
     private Vector2 startPosition;
     private float directionChangeTimer;
 
-    public CreatureData creatureData; // The creature this enemy represents
+    public CreatureData creatureData; // La criatura que representa aquest enemic
 
     void Start()
     {
@@ -25,13 +25,17 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+        if (OverworldManager.isBattleActive)
+        {
+            movement = Vector2.zero;
+            return;
+        }
+
         // Simple patrol AI: move in random directions within radius
         directionChangeTimer -= Time.deltaTime;
         if (directionChangeTimer <= 0)
         {
-            // Change direction randomly
-            movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
-            directionChangeTimer = changeDirectionTime;
+            ChangeDirection();
         }
 
         // Keep within patrol radius
@@ -44,6 +48,31 @@ public class EnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (OverworldManager.isBattleActive)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
+        // Usem linearVelocity en lloc de MovePosition per respectar completament la física
+        rb.linearVelocity = movement * moveSpeed;
     }
-}
+
+    private void ChangeDirection()
+    {
+        movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        directionChangeTimer = changeDirectionTime;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Canvia de direcció immediatament en xocar contra un objecte
+        ChangeDirection();
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        // Si es queda encallat contra una paret, accelera el temps de canvi de direcció
+        directionChangeTimer -= Time.deltaTime * 5f;
+    }
+}
