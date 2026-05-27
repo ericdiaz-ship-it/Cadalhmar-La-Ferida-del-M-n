@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Esglesia.unity
     guid: 13a8374816ed3a54aa550dece9397ec9
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: b71ac057c774b1040ad60095f773c18f
+  - enabled: 1
+    path: Assets/Scenes/Cova.unity
+    guid: d710a4ac1e60a074e9a4d8a2d597e700
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab844e47f3ac74386b1073f515c824, type: 3}
+  m_Name: "Informe Periodic de l'Evoluci\xF3 de la malatia de la meva germana"
+  m_EditorClassIdentifier: Assembly-CSharp::DocumentData
+  id: 4
+  titol: "Informe peri\xF2dic sobre l\u2019evoluci\xF3 de la malaltia de la meva
+    germana"
+  contingut: "Els primers s\xEDmptomes van apar\xE8ixer de manera subtil, gaireb\xE9
+    imperceptible. Al principi nom\xE9s eren petites zones de la seva pell que es
+    comenaven a escalfar. Semblava una febre normal, una d\u2019aquelles malalties
+    estacionals que desapareixen amb rep\xF2s i algunes infusions. Per\xF2 aix\xF2
+    era diferent. La seva pell no nom\xE9s estava calenta: cremava. Quan li toc\xE0vem
+    el front, era com apropar la m\xE0 a una pedra deixada hores sota el sol.\r\nElla
+    mateixa semblava un \xE9sser de foc.\r\nNi jo ni la mare enten\xEDem qu\xE8 estava
+    passant. Vam provar tot el que coneix\xEDem. Herbes medicinals, ung\xFCents antics,
+    remeis tradicionals que havien passat de generaci\xF3 en generaci\xF3 a Cadalhmar.
+    Fins i tot vam rec\xF3rrer a m\xE0gia de curaci\xF3, encara que fos arriscat
+    utilitzar-la sense un sanador autoritzat. Per\xF2 res funcionava. Absolutament
+    res. La calor no disminu\xEFa; al contrari, semblava cr\xE9ixer cada dia m\xE9s.\r\nDespr\xE9s
+    va arribar el seg\xFCent canvi.\r\nUna nit, la meva germana va cridar la mare
+    desesperadament. Mai ho havia fet abans amb aquella veu. Hi havia por en els
+    seus crits. Una por real, profunda. Quan vam entrar a l\u2019habitaci\xF3, estava
+    tapant-se els ulls amb les mans i tremolava. Deia que la llum li feia mal. Qualsevol
+    llum. La de les espelmes, la de la finestra, fins i tot la m\xE9s feble.\r\nSensibilitat
+    a la llum\u2026 per\xF2 per qu\xE8?\r\nLa nostra casa sempre havia estat igual.
+    Les mateixes finestres, les mateixes espelmes, la mateixa claror suau de cada
+    mat\xED. Per\xF2 ara ella actuava com si la llum li crem\xE9s els ulls. Durant
+    dies vam haver de mantenir les cortines tancades i deixar l\u2019habitaci\xF3
+    gaireb\xE9 a les fosques. I tot i aix\xED continuava queixant-se.\r\nVa ser llavors
+    quan la situaci\xF3 es va tornar realment aterridora.\r\nLa seva temperatura
+    va augmentar fins a un punt impossible. Ja no era nom\xE9s una persona amb febre.
+    Ella desprenia calor constantment. L\u2019aire al seu voltant es tornava dens
+    i sec. Entrar a la seva habitaci\xF3 era com apropar-se a una fornal oberta.\r\nElla
+    era calor.\r\n Ella era una flama viva.\r\nLes s\xE0banes acabaven completament
+    xopes cada nit, impregnades de suor i d\u2019una olor estranya, semblant a fum
+    o metall cremat. Hav\xEDem de canviar-les di\xE0riament. Algunes apareixien ennegrides
+    a les vores, com si haguessin estat massa a prop del foc. La mare intentava fingir
+    que no ho veia, per\xF2 jo s\xED. Ho veia tot.\r\nI ara han aparegut els pitjors
+    s\xEDmptomes fins al moment.\r\nEl seu son s\u2019ha alterat completament. A
+    les tres de la matinada es desperta de cop i comen\xE7a a parlar sola amb una
+    veu que gaireb\xE9 no sembla la seva. Murmura frases inconnexes, noms que no
+    reconec, paraules en lleng\xFCes que mai havia sentit. Altres vegades simplement
+    crida.\r\nCrida que cau.\r\n Crida que s\u2019est\xE0 cremant.\r\n Suplica que
+    tot aix\xF2 s\u2019acabi d\u2019una vegada.\r\nDespr\xE9s, en ple migdia, cau
+    adormida de sobte, com si el cos ja no pogu\xE9s suportar m\xE9s el dolor.\r\nPer\xF2
+    el que m\xE9s m\u2019espanta\u2026 \xE9s el canvi f\xEDsic.\r\nEls seus ulls
+    estan perdent el color natural. Cada dia es tornen m\xE9s grocs, m\xE9s brillants,
+    com brases amagades darrere les pupil\xB7les. Quan em mira a la foscor, sembla
+    que hi hagi llum dins seu.\r\nI la seva pell\u2026\r\nAlgunes zones han comen\xE7at
+    a endurir-se. Primer van ser petites taques al coll i a les espatlles, per\xF2
+    ara s\u2019estenen lentament pels bra\xE7os i l\u2019esquena. La pell ja no sembla
+    pell humana. T\xE9 una textura rugosa, seca, gaireb\xE9 mineral.\r\nS\u2019assembla
+    a escames.\r\nNo vull escriure aquesta paraula, per\xF2 \xE9s la veritat.\r\nEscames.\r\nJa
+    no s\xE9 si estic observant una malaltia\u2026 o una transformaci\xF3.\r\n"

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab844e47f3ac74386b1073f515c824, type: 3}
+  m_Name: La cronica de la Portadora
+  m_EditorClassIdentifier: Assembly-CSharp::DocumentData
+  id: 5
+  titol: "La Cr\xF2nica de la Portadora"
+  contingut: "\u201CSer Portadora no \xE9s el que us creieu. No \xE9s cap privilegi,
+    ni et converteix en una reina; m\xE9s aviat et transforma en el ventre de la
+    reina, en l'ombra f\xE8rtil de la teva superior. No som alg\xFA a qui admirar,
+    sin\xF3 una eina m\xE9s d'aquest sistema engranat amb sang i silenci.\r\nS\xF3c
+    Portadora des de fa cinc anys i, en aquest temps, he parit tres fills. Se'm nega
+    el dret de nomenar-los \"meus\", per\xF2 els he gestat jo, no? He sentit com
+    els seus ossos es formaven dins meu. Per\xF2 aix\xED funciona el m\xF3n ara:
+    som ventres de lloguer, receptacles de carn que l'elit lloga per assegurar una
+    descend\xE8ncia que la maledicci\xF3 ens vol arrencar.\r\nM\u2019ho miro tot
+    a trav\xE9s del vel carmes\xED que em cobreix el rostre, una reixa de tela que
+    em recorda cada segon que la meva visi\xF3 del m\xF3n ha de ser limitada. Per\xF2,
+    darrere del teixit, els meus ulls han comen\xE7at a veure esquerdes en la pedra
+    del palau. Diuen que som sagrades, que la nostra tasca mant\xE9 l'ordre de les
+    coses, per\xF2 quina classe d'ordre es fonamenta en buidar una dona per omplir
+    un bressol d'or?\r\nAhir vaig trobar uns papers vells a la biblioteca de l'Alquimista,
+    amagats sota un munt d'informaci\xF3 sobre la maledicci\xF3. Hi havia paraules
+    ratllades, dubtes sobre el llinatge, sobre el ver\xED invisible que ens envolta.
+    Em vaig adonar que ells tamb\xE9 tenen por. Tenen por que descobrim que la seva
+    m\xE0gia no \xE9s un dret div\xED, sin\xF3 una r\xE8mora del passat.\r\nHe comen\xE7at
+    a parlar amb les altres a les hores del mercat, sense moure els llavis, intercanviant
+    paraules com si fossin contraban. \"El canvi no neix de la sang que ens prenen\",
+    vaig xiuxiuejar-li a la Portadora del costat, \"sin\xF3 de la r\xE0bia que decidim
+    no empassar-nos\".\r\nJa no vull ser un receptacle. Si la terra pot rebel\xB7lar-se
+    amb terratr\xE8mols quan se sent ferida, per qu\xE8 no haur\xEDem de fer-ho nosaltres,
+    que som les \xFAniques que encara podem crear vida en un m\xF3n que fa olor de
+    mort i cendra? El sistema ens ha donat un sol prop\xF2sit, i precisament per
+    aix\xF2, tenim el poder de decidir quan s'atura la roda.\u201D Aix\xED continua,
+    per\xF2 no en tinc temps de llegir-ne m\xE9s que les dues primeres p\xE0gines.\r\n"

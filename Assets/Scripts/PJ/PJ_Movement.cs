@@ -22,9 +22,9 @@ public class PJ_Movement : MonoBehaviour
 
     // --- CONFIGURACIÓ D'INTERACCIÓ (AMB CENTRE AJUSTABLE) ---
     [Header("Configuració d'Interacció")]
-    public float interactDistance = 1.2f; // Quant lluny arriba el raig
-    public LayerMask interactLayer;      // La capa "Interactuable"
-    public Vector2 interactOffset;       // DESPLAÇAMENT: Ajusta el punt d'origen (ex: 0, 0.5)
+    public float interactDistance = 1.2f;
+    public LayerMask interactLayer;
+    public Vector2 interactOffset;
 
     void Start()
     {
@@ -34,6 +34,17 @@ public class PJ_Movement : MonoBehaviour
 
     void Update()
     {
+        // Si hay batalla activa, paramos al jugador completamente
+        if (OverworldManager.isBattleActive)
+        {
+            horizontal = 0;
+            vertical = 0;
+            animator.SetBool("isMoving", false);
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
+            return;
+        }
+
         // 1. OBTENIR INPUT (ORIGINAL)
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
@@ -55,7 +66,7 @@ public class PJ_Movement : MonoBehaviour
         // 2. GESTIÓ D'ANIMACIONS I DIRECCIÓ (ORIGINAL)
         if (isMoving)
         {
-            lastDirection = movement; 
+            lastDirection = movement;
             animator.SetBool("isMoving", true);
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
@@ -87,13 +98,8 @@ public class PJ_Movement : MonoBehaviour
 
     void TryInteract()
     {
-        // Calculem el punt d'origen real sumant la posició actual + el desplaçament (offset)
         Vector2 origin = (Vector2)transform.position + interactOffset;
-
-        // Lancem el raig des del nou origen cap a la direcció on mirem
         RaycastHit2D hit = Physics2D.Raycast(origin, lastDirection, interactDistance, interactLayer);
-
-        // Dibuixem el raig a la Scene per poder ajustar l'offset visualment
         Debug.DrawRay(origin, lastDirection * interactDistance, Color.red, 0.5f);
 
         if (hit.collider != null)
@@ -108,6 +114,13 @@ public class PJ_Movement : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Si hay batalla activa, detenemos el Rigidbody
+        if (OverworldManager.isBattleActive)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         Vector2 movement = new Vector2(horizontal, vertical).normalized;
         rb.linearVelocity = movement * speed;
     }

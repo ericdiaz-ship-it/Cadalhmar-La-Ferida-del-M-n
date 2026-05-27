@@ -165,6 +165,10 @@ PrefabInstance:
       value: TilesetCasa
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -511413378406191010, guid: deb1e26db3c79ff489b2d64259c3bab2, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -777,17 +781,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.56985694, y: 0.36656317}
+  m_Offset: {x: 0.3575928, y: 0.4565629}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.40101522, y: -0.018433182}
-    oldSize: {x: 1.97, y: 2.17}
+    pivot: {x: 0.4608295, y: -0.092165895}
+    oldSize: {x: 2.17, y: 2.17}
     newSize: {x: 1.97, y: 2.17}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.2202863, y: 0.6741348}
+  m_Size: {x: 1.2379751, y: 0.49413532}
   m_EdgeRadius: 0
 --- !u!61 &615480465
 BoxCollider2D:
@@ -823,17 +827,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.19500005, y: 0.8924498}
+  m_Offset: {x: 0.00042498112, y: 0.9824493}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.40101522, y: -0.018433182}
-    oldSize: {x: 1.97, y: 2.17}
+    pivot: {x: 0.4608295, y: -0.092165895}
+    oldSize: {x: 2.17, y: 2.17}
     newSize: {x: 1.97, y: 2.17}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.97, y: 1.0662543}
+  m_Size: {x: 1.9523103, y: 0.88625526}
   m_EdgeRadius: 0
 --- !u!1 &670461536
 GameObject:
@@ -19069,6 +19073,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7083492501517967801, guid: deb1e26db3c79ff489b2d64259c3bab2, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -31434,7 +31442,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.009273052, y: 1.7389195}
+  m_Offset: {x: 0.024416924, y: 1.7389195}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -31444,7 +31452,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.6119986, y: 2.9003234}
+  m_Size: {x: 1.5446186, y: 2.9003234}
   m_EdgeRadius: 0
 --- !u!4 &1264237201
 Transform:
@@ -31504,8 +31512,8 @@ BoxCollider2D:
   m_Offset: {x: -0.025950462, y: 0.24356674}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.52380955, y: -0.024390243}
-    oldSize: {x: 1.05, y: 0.82}
+    pivot: {x: 0.52380955, y: -0.020618556}
+    oldSize: {x: 1.05, y: 0.97}
     newSize: {x: 1.05, y: 0.82}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -31551,13 +31559,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330477503}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.00586952, y: -0, z: -0, w: 0.9999828}
   m_LocalPosition: {x: -9.01, y: -0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.673, y: 0, z: 0}
 --- !u!1001 &1432156252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31570,6 +31578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TilesetCasa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5322974582026753192, guid: deb1e26db3c79ff489b2d64259c3bab2, type: 3}
     - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -31816,6 +31828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TilesetCasa (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2466849822699810465, guid: deb1e26db3c79ff489b2d64259c3bab2, type: 3}
     - target: {fileID: 3626916397498700004, guid: 43d79d1bfc4ee9f40a5eb8731ccb85c7, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -32110,6 +32126,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 178e86a2361432c47a398a90ecfd23bb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8430102008353287309, guid: 2defab0785184484b9d75b340a8c1308, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 178e86a2361432c47a398a90ecfd23bb, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -32127,11 +32147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 178e86a2361432c47a398a90ecfd23bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7229404
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 178e86a2361432c47a398a90ecfd23bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.30580002
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 178e86a2361432c47a398a90ecfd23bb, type: 3}
       propertyPath: m_LocalPosition.z

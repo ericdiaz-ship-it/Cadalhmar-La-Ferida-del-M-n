@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: SegonDialeg
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Eulalia
+    textDialeg: Ho sento Eldrin, ja has sentit al sacerdot
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "No \xE9s possible, mare, es podr\xE0 fer alguna cosa, no pot morir,
+      ella tamb\xE9\u2026, ella \xE9s el meu pilar, la meva meitat"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Eulalia
+    textDialeg: "Ho s\xE9 Eldrin, per\xF2 el m\xF3n continua cap endavant i tu ets
+      molt jove no ho pots aturar tot per ella"
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "S\xED que puc, anir\xE9 a estudiar un altre cop, ho aconseguir\xE9,
+      mare, per ella, per mi, per\xF2 sobretot per tu"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Eulalia
+    textDialeg: "No ser\xE8 jo qui t\u2019ho impedeixi, per\xF2 fill recorda que
+      tu tamb\xE9 tens vida, i que si ni la gran reina de la llum, ni les ll\xE0grimes
+      ens han ajudat, es casi impossible que tu en puguis fer algun miracle i no
+      pots aturar la teva vida\u2026"
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Basta mare, elles mai ens han ajudat, ho aconseguir\xE9, confia
+      en mi."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Eulalia
+    textDialeg: "Eldrin, no diguis aix\xF2, ni ara ni mai"
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Per\xF2, \xE9s veritat\u2026"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Eulalia
+    textDialeg: "Ja basta amor meu, s\xE9 que \xE9s dur, per\xF2 no perdis la fe
+      mai"
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "He d\u2019anar a la meva habitaci\xF3, alguna cosa en trobar\xE9
+      per salvar-la. "
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: "Jo t'ajudar\xE9"
+    imatgePersonatge: {fileID: -1248478597890262744, guid: 5e83707b4a4c23d468c8854fb65bf655, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Qui ets?
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: "Jo t'ajudar\xE9\u2026"
+    imatgePersonatge: {fileID: -1248478597890262744, guid: 5e83707b4a4c23d468c8854fb65bf655, type: 3}

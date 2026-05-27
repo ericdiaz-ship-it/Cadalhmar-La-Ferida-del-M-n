@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab844e47f3ac74386b1073f515c824, type: 3}
+  m_Name: Escena Intermitja
+  m_EditorClassIdentifier: Assembly-CSharp::DocumentData
+  id: 7
+  titol: "Diari de Eldrin p\xE0gina 7"
+  contingut: "Qui \xE9s ella?\r\nCatherine m\u2019ha dit que es diu aix\xED\u2026
+    o almenys aix\xF2 \xE9s el que crec haver sentit. Per\xF2 com m\xE9s hi penso,
+    m\xE9s dubtes tinc. \xC9s com si el record no acab\xE9s d\u2019encaixar del tot,
+    com si hagu\xE9s passat massa r\xE0pid o en un moment en qu\xE8 jo no estava
+    realment atent.\r\n\xC9s cert que he anat de poble en poble buscant ajuda. Ho
+    recordo b\xE9. Recordo les converses, les portes tancades, les mirades de por
+    o de cansament. Recordo preguntar una vegada i una altra, repetint la mateixa
+    hist\xF2ria fins que les paraules perdien sentit.\r\nPer\xF2 ella\u2026 no la
+    situo.\r\nNo la recordo clarament. I aix\xF2 em preocupa m\xE9s del que voldria
+    admetre.\r\nQui \xE9s realment? Com ha arribat fins a mi?\r\nI per qu\xE8 just
+    ara?\r\nDiu que tamb\xE9 t\xE9 la malaltia. Per\xF2 la descriu d\u2019una manera
+    diferent, com si no fos exactament una malaltia, sin\xF3 una mena de maledicci\xF3.
+    No ho acabo d\u2019entendre del tot. Les seves paraules no s\xF3n clares, o potser
+    s\xF3c jo qui no les est\xE0 sabent processar b\xE9.\r\nTot i aix\xF2, si realment
+    \xE9s veritat\u2026 si ella tamb\xE9 ho pateix\u2026 llavors potser s\xED que
+    hi ha alguna cosa que ens connecta. Potser no estic tan sol com pensava.\r\nNo
+    s\xE9 per qu\xE8, per\xF2 no li he dit que no.\r\nPotser hauria d\u2019haver
+    dubtat m\xE9s. Potser hauria d\u2019haver fet m\xE9s preguntes abans de confiar
+    en alg\xFA que apareix en un moment aix\xED. Per\xF2 hi ha una sensaci\xF3 dif\xEDcil
+    d\u2019explicar que m\u2019ha fet avan\xE7ar igualment. No s\xE9 si \xE9s confian\xE7a
+    o simplement esgotament. Potser les dues coses.\r\nI tamb\xE9 hi ha la mare.\r\nNo
+    vull posar-la en perill. Ja ha vist prou. Ja ha patit massa. Si hi ha alguna
+    manera de no arrossegar-la m\xE9s en aix\xF2, millor.\r\nNo s\xE9 per qu\xE8,
+    per\xF2 aquesta persona no m\u2019ha fet sentir amena\xE7a. Al contrari. Em va
+    donar una sensaci\xF3 estranya, dif\xEDcil de definir. Com una calma que no encaixa
+    amb tot el caos que estem vivint. No diria que \xE9s confian\xE7a plena\u2026
+    per\xF2 tampoc desconfian\xE7a.\r\n\xC9s una sensaci\xF3 interm\xE8dia. Inc\xF2moda,
+    per\xF2 no negativa.\r\nAix\xED que, per ara, vindr\xE0 amb mi.\r\nNo s\xE9 si
+    \xE9s la decisi\xF3 correcta. No s\xE9 si estic cometent un error o si, per primera
+    vegada en molt de temps, estic fent alguna cosa que ens pot acostar a una resposta.\r\nPer\xF2
+    ara mateix, \xE9s l\u2019\xFAnic moviment que tinc."
