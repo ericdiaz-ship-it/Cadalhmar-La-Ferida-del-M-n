@@ -150,6 +150,17 @@ public class CinematicaDirector : MonoBehaviour
                     Debug.LogWarning("[Director] No s'ha especificat cap escena per canviar.");
                 }
                 break;
+
+            case TipusPas.VisibilitatActor:
+            {
+                ActorCinematic actorVisibilitat = TrobarActor(pas.nomActor);
+                if (actorVisibilitat != null)
+                {
+                    actorVisibilitat.gameObject.SetActive(pas.ferVisible);
+                    Debug.Log($"[Director] Actor '{pas.nomActor}' visibilitat canviada a {pas.ferVisible}.");
+                }
+                break;
+            }
         }
     }
 

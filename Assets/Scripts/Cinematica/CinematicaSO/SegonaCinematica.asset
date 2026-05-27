@@ -13,40 +13,59 @@ MonoBehaviour:
   m_Name: SegonaCinematica
   m_EditorClassIdentifier: Assembly-CSharp::CinematicaSO
   passos:
+  - tipusPas: 6
+    nomActor: Catherine
+    "nomDest\xED": PuntDCatherine
+    velocitat: 2
+    dialeg: {fileID: 11400000, guid: a0c88140d1ef2ed488372070695ff039, type: 2}
+    tempsEspera: 0
+    ferVisible: 1
+    nomVariableGlobal: CatherineCinematica
+    escenaACanviar: 
   - tipusPas: 4
     nomActor: 
     "nomDest\xED": 
     velocitat: 0
     dialeg: {fileID: 0}
     tempsEspera: 0
+    ferVisible: 0
     nomVariableGlobal: CatherineCinematica
+    escenaACanviar: 
   - tipusPas: 1
     nomActor: Catherine
     "nomDest\xED": PuntBCatherine
     velocitat: 2
     dialeg: {fileID: 0}
     tempsEspera: 0
+    ferVisible: 0
     nomVariableGlobal: CatherineCinematica
+    escenaACanviar: 
   - tipusPas: 1
     nomActor: Catherine
     "nomDest\xED": PuntCCatherine
     velocitat: 2
     dialeg: {fileID: 0}
     tempsEspera: 0
+    ferVisible: 0
     nomVariableGlobal: CatherineCinematica
+    escenaACanviar: 
   - tipusPas: 1
     nomActor: Catherine
     "nomDest\xED": PuntDCatherine
     velocitat: 2
     dialeg: {fileID: 0}
     tempsEspera: 0
+    ferVisible: 0
     nomVariableGlobal: CatherineCinematica
+    escenaACanviar: 
   - tipusPas: 2
     nomActor: Catherine
     "nomDest\xED": PuntDCatherine
     velocitat: 2
     dialeg: {fileID: 11400000, guid: a0c88140d1ef2ed488372070695ff039, type: 2}
     tempsEspera: 0
+    ferVisible: 0
     nomVariableGlobal: CatherineCinematica
+    escenaACanviar: 
   posarVariableGlobal: 1
   nomVariableGlobal: CatherineCinematica

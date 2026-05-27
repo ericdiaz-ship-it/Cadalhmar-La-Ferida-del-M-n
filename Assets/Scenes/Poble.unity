@@ -433,7 +433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &270538194
 Animator:
   serializedVersion: 7
@@ -713,7 +713,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   interactOffset: {x: 0, y: 0.25}
-  catherineGameObject: {fileID: 0}
+  catherineGameObject: {fileID: 270538193}
 --- !u!50 &322318880
 Rigidbody2D:
   serializedVersion: 5

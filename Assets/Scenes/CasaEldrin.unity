@@ -15920,6 +15920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sacerdot
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 836e43d2a55db654e83cef4733074a28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1160356261127867848, guid: 836e43d2a55db654e83cef4733074a28, type: 3}
       propertyPath: m_Controller
       value: 
@@ -18054,7 +18058,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -18128,7 +18132,7 @@ Transform:
   m_GameObject: {fileID: 1789621647}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 0.26, z: 0}
+  m_LocalPosition: {x: -18.6, y: -9.21, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

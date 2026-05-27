@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public enum TipusPas { MourePJ, MoureActor, Dialeg, Espera, PosarVariableGlobal, CanviarEscena }
+public enum TipusPas { MourePJ, MoureActor, Dialeg, Espera, PosarVariableGlobal, CanviarEscena, VisibilitatActor }
 
 [System.Serializable]
 public struct PasoCinematica
@@ -17,6 +17,9 @@ public struct PasoCinematica
 
     [Header("Espera")]
     public float tempsEspera;
+
+    [Header("Visibilitat (Requereix 'nomActor')")]
+    public bool ferVisible;
 
     [Header("Posar Variable Global a TRUE")]
     [Tooltip("Introdueix el nom exacte de la variable bool de VariablesGlobals que es posarà a true.")]
