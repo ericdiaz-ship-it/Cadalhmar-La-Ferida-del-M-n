@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class DocumentButton : MonoBehaviour {
     public string documentId;
     public string titolDocument;
-    private TextMeshProUGUI labelText;  // Usar TextMeshProUGUI explícitamente
+    private TextMeshProUGUI labelText;  // Utilitzem TextMeshProUGUI explícitament
 
     void Start() {
-        // Buscar el TMP_Text en Start por si acaso
+        // Busquem el TMP_Text a Start per si de cas
         if (labelText == null) {
             labelText = GetComponentInChildren<TextMeshProUGUI>();
             if (labelText != null) {
@@ -22,18 +22,18 @@ public class DocumentButton : MonoBehaviour {
         documentId = id;
         titolDocument = titulo;
         
-        // Buscar el TextMeshProUGUI
+        // Busquem el TextMeshProUGUI
         if (labelText == null) {
             labelText = GetComponentInChildren<TextMeshProUGUI>();
         }
         
-        // Actualizar el text de forma forçada
+        // Actualitzem el text de forma forçada
         if (labelText != null) {
             labelText.text = titulo;
-            labelText.SetAllDirty();  // Forçar actualització
+            labelText.SetAllDirty();  // Forcem l'actualització
             Debug.Log($"DocumentButton.Setup: Text actualitzat a '{titulo}' al GameObject {gameObject.name}");
         } else {
-            // Si no el trobem amb GetComponentInChildren, intentar find directe
+            // Si no el trobem amb GetComponentInChildren, intentem trobar-lo directament
             Transform textTransform = transform.Find("Text (TMP)");
             if (textTransform != null) {
                 labelText = textTransform.GetComponent<TextMeshProUGUI>();
