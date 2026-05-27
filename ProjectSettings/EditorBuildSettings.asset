@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cova.unity
     guid: d710a4ac1e60a074e9a4d8a2d597e700
+  - enabled: 1
+    path: Assets/Scenes/JocPerdut.unity
+    guid: f47c0b213b4838d46b894b3c5d5d23ac
+  - enabled: 1
+    path: Assets/Scenes/EscenaFinal.unity
+    guid: 798787026306a1a458451dae435eab94
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
