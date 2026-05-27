@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: Catherine
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Catherine
+    textDialeg: Bon dia, ets Eldrin?
+    imatgePersonatge: {fileID: -5456494341613952693, guid: 11f241d0f2f4e5e4788a2ac5c5986b53, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "S\xED, qui pregunta?"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Catherine
+    textDialeg: "Soc Catherine, vinc de Valdeluna, vaig sentir que un noi estava
+      buscant una cura per la garra del rei, i encara que jo no s\xE9 res d'aix\xF2
+      crec que la maledicci\xF3 de la meva fam\xEDlia podria tenir alguna cosa similar
+      a aquesta malaltia."
+    imatgePersonatge: {fileID: -5456494341613952693, guid: 11f241d0f2f4e5e4788a2ac5c5986b53, type: 3}
+  - nomPersonatge: Catherine
+    textDialeg: "Aix\xED que et vull ajudar i acompanyar en el teu cam\xED."
+    imatgePersonatge: {fileID: -5456494341613952693, guid: 11f241d0f2f4e5e4788a2ac5c5986b53, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: "Confia en ella, \xE9s forta, ser\xE0 millor tenir-la del nostre
+      costat."
+    imatgePersonatge: {fileID: 6524474056086222057, guid: b9502a11701fe4b43a3460607c93df90, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Perfecte, benvinguda a l'equip Catherine.
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}

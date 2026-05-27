@@ -10,26 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
-  m_Name: Sacerdot
+  m_Name: Sacerdot02
   m_EditorClassIdentifier: Assembly-CSharp::DialegSO
   linies:
-  - nomPersonatge: Eldrin
-    textDialeg: Vull baixar a la masmorra
+  - nomPersonatge: Jo
+    textDialeg: "Que \xE9s aquest paper pare?"
     imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
   - nomPersonatge: Sacerdot
-    textDialeg: "No, \xE9s un lloc perill\xF3s, l'antic sacerdot va morir all\xE0."
+    textDialeg: 'On l''has trobat, m''ho vaig deixar a ta casa? '
     imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
   - nomPersonatge: Jo
-    textDialeg: Ho fare per la meva germana
+    textDialeg: "Si, sembla un ritual, vull provar-ho est\xE0 incomplet."
     imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
   - nomPersonatge: Sacerdot
-    textDialeg: La reina blanca no m'ho perdonaria
+    textDialeg: "Eldrin \xE9s dif\xEDcil, si us plau, no ho facis m\xE9s dif\xEDcil."
     imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
   - nomPersonatge: Jo
-    textDialeg: "I si et perdonaria, deixar morir a alg\xFA? Perqu\xE8 \xE9s el que
-      esteu fent."
+    textDialeg: Necessito entrar, vull baixar a la masmorra.
     imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
   - nomPersonatge: Sacerdot
-    textDialeg: "Ja basta Eldrin, ho hem intentat tot, per\xF2 si hi vols baixar,
-      baixa per\xF2 amb la teva responsabilitat."
+    textDialeg: No, no pots, si us plau Eldrin.
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Baixar\xE9 sota la meva responsabilitat Pare, ho far\xE9 per la
+      germana."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: "T\xE9, aqu\xED tens la clau, que les ll\xE0grimes et beneeixin."
     imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}

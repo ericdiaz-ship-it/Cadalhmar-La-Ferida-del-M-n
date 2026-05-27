@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: Eulalia02
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Jo
+    textDialeg: Mare vaig a parlar amb el sacerdot.
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Eulalia
+    textDialeg: "Vale amor, per\xF2 ves amb compte, no tot \xE9s possible, encara
+      que faci mal."
+    imatgePersonatge: {fileID: 3470863303700224304, guid: 68b6132a097564d4eaf3676b37dd3fe9, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Tot \xE9s possible, ho s\xE9, encara hi ha possibilitats, ho far\xE9
+      per la germana."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}

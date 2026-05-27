@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,10 @@ public class GestorDialegs : MonoBehaviour
     public TextMeshProUGUI textDialeg;  
     public RawImage imatgePersonatge;      
 
+    // Callback que es crida quan un diàleg acaba.
+    // Qualsevol script pot subscriure's per reaccionar al final del diàleg.
+    public event Action onDialegAcabat;
+
     private Queue<LiniaDialeg> cuaDialegs; 
 
     void Start()
@@ -21,7 +26,7 @@ public class GestorDialegs : MonoBehaviour
 
     void Update()
     {
-        // Pasar línea con Espacio o Click Izquierdo
+        // Avança la línia amb Espai o clic esquerre
         if (contenidorDialeg.activeInHierarchy && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
             MostrarSeguentLinia();
@@ -72,5 +77,9 @@ public class GestorDialegs : MonoBehaviour
     {
         contenidorDialeg.SetActive(false);
         Debug.Log("Diàleg acabat!");
+
+        // Notifiquem a tots els subscriptors que el diàleg ha acabat
+        onDialegAcabat?.Invoke();
+        onDialegAcabat = null; // Netejem els callbacks per evitar que es cridin en diàlegs futurs
     }
 }
