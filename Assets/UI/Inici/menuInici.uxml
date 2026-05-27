@@ -5,9 +5,25 @@
         <ui:VisualElement class="overlay" />
         <ui:VisualElement class="center-container">
             <ui:Label text="CADALHMAR" class="title" />
-            <ui:Button text="New Game" name="NewGame" class="menu-button" />
-            <ui:Button text="Continue" name="Continue" class="menu-button" />
-            <ui:Button text="Exit" name="Exit" class="menu-button" />
+            <ui:Button text="Nou Joc" name="NewGame" class="menu-button" />
+            <ui:Button text="Com jugar?" name="Continue" class="menu-button" />
+            <ui:Button text="Sortir" name="Exit" class="menu-button" />
+        </ui:VisualElement>
+        
+        <ui:VisualElement class="tutorial-panel" name="TutorialPanel" style="display: none;">
+            <ui:Button text="✕" name="CloseTutorial" class="close-button" />
+            <ui:Label text="TUTORIAL" class="tutorial-title" />
+            <ui:VisualElement class="tutorial-separator" />
+            <ui:Label text="EXPLORACIÓ I INTERACCIÓ" class="tutorial-section-title" />
+            <ui:Label text="[ W A S D ] / [ Fletxes ]   →   Moure l'Eldrin pel món obert." class="tutorial-text" />
+            <ui:Label text="[ E ]   →   Interactuar amb NPCs, objectes i documents." class="tutorial-text" />
+            <ui:Label text="[ I ]   →   Obrir o tancar l'Inventari de documents recollits." class="tutorial-text" />
+            <ui:Label text="[ Espai ]   →   Avançar els diàlegs." class="tutorial-text" />
+            <ui:VisualElement class="tutorial-separator" />
+            <ui:Label text="SISTEMA DE BATALLA" class="tutorial-section-title" />
+            <ui:Label text="[ Clic Esquerre ]   →   Seleccionar el teu heroi per donar ordres." class="tutorial-text" />
+            <ui:Label text="[ Habilitats, Clic Dret  ]   →   Els atacs poden fallar, fer mal normal o crític." class="tutorial-text" />
+            <ui:Label text="[ H ]   →   Usar una Poció per curar l'heroi seleccionat." class="tutorial-text" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

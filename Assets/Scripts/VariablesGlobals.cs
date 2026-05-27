@@ -3,8 +3,12 @@ using System.Collections.Generic;
 
 public class VariablesGlobals 
 {
-    public static int pocions = 0; //variable global que conte el nombre de pocions que te el jugador
+    public static int pocions = 20; //variable global que conte el nombre de pocions que te el jugador
     public static List<string> documentsRecollits = new List<string>(); //variable global que conte els id dels documents que te el jugador
+    public static bool CatherineCinematica = true;
+    public static bool paperRitual = false;
+    public static bool parlaSacerdot = false;
+    public static bool clauPorta = false;
     // Afegeix un document a la llista global si no existeix ja.
     // Retorna true si s'ha afegit, false si ja existia o l'id no és vàlid.
     // Afegir un document; per defecte NO obre l'inventari.

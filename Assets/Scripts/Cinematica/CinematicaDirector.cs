@@ -7,6 +7,10 @@ public class CinematicaDirector : MonoBehaviour
     [Header("Referències fixes de la escena")]
     public GestorDialegs gestorDialegs;
     public PJ_Movement jugador;
+    public PasoCinematica[] passos;
+    // Activate a global boolean variable when this cinematic finishes
+    public bool posarVariableGlobal = false;
+    public string nomVariableGlobal = ""; // name of the static bool in VariablesGlobals to set to true
     public ActorCinematic actorJugador;
 
     [Header("Actors de la escena (NPCs amb ActorCinematic)")]
@@ -79,6 +83,20 @@ public class CinematicaDirector : MonoBehaviour
         Debug.Log("[Director] Cinematica acabada.");
         BloquearJugador(false);
         enCinematica = false;
+        // If configured, set the specified global variable to true
+        if (cinematica.posarVariableGlobal && !string.IsNullOrEmpty(cinematica.nomVariableGlobal))
+        {
+            var field = typeof(VariablesGlobals).GetField(cinematica.nomVariableGlobal);
+            if (field != null && field.FieldType == typeof(bool))
+            {
+                field.SetValue(null, true);
+                Debug.Log($"[Director] Global variable '{cinematica.nomVariableGlobal}' set to true.");
+            }
+            else
+            {
+                Debug.LogWarning($"[Director] Global variable '{cinematica.nomVariableGlobal}' not found or not a bool.");
+            }
+        }
     }
 
     private IEnumerator ExecutarPas(PasoCinematica pas)
@@ -120,6 +138,29 @@ public class CinematicaDirector : MonoBehaviour
                 Debug.Log($"[Director] Esperant {pas.tempsEspera}s...");
                 yield return new WaitForSeconds(pas.tempsEspera);
                 break;
+
+            case TipusPas.CanviarEscena:
+                if (!string.IsNullOrEmpty(pas.escenaACanviar))
+                {
+                    Debug.Log($"[Director] Canviant a l'escena: {pas.escenaACanviar}");
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(pas.escenaACanviar);
+                }
+                else
+                {
+                    Debug.LogWarning("[Director] No s'ha especificat cap escena per canviar.");
+                }
+                break;
+
+            case TipusPas.VisibilitatActor:
+            {
+                ActorCinematic actorVisibilitat = TrobarActor(pas.nomActor);
+                if (actorVisibilitat != null)
+                {
+                    actorVisibilitat.gameObject.SetActive(pas.ferVisible);
+                    Debug.Log($"[Director] Actor '{pas.nomActor}' visibilitat canviada a {pas.ferVisible}.");
+                }
+                break;
+            }
         }
     }
 

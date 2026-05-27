@@ -15,7 +15,7 @@ public class StatusConditionEffect : MonoBehaviour, IEffect
         {
             if (cond.gameObject == this.gameObject)
             {
-                Debug.LogError("Las condiciones de estado deben estar en un GameObject diferente al de la habilidad/efecto");
+                Debug.LogError("Les condicions d'estat han d'estar en un GameObject diferent del de la habilitat o l'efecte");
             }
         }
     }
@@ -29,7 +29,7 @@ public class StatusConditionEffect : MonoBehaviour, IEffect
 
         foreach (var cond in this.conditions)
         {
-            // Clonamos el objeto con la condicion de estado
+            // Clonem l'objecte amb la condició d'estat
             GameObject parasiteObj = Instantiate(cond.gameObject);
             parasiteObj.SetActive(true);
 

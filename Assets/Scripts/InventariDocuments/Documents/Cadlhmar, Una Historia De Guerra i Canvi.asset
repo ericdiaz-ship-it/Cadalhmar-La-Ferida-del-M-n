@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab844e47f3ac74386b1073f515c824, type: 3}
+  m_Name: Cadlhmar, Una Historia De Guerra i Canvi
+  m_EditorClassIdentifier: Assembly-CSharp::DocumentData
+  id: 2
+  titol: "Hist\xF2ria de guerra"
+  contingut: "El m\xF3n de Cadalhmar va ser concebut per una multitud de d\xE9us,
+    tan vasta que amb prou feines coneixem la meitat d\u2019ells. En aquest m\xF3n,
+    diverses races coexistien pac\xEDficament, dividides entre cinc poderosos regnes,
+    cadascun governat per un l\xEDder (Lecai, Rauko, Elicar, Leica i Mel) des del
+    seu centre territorial.\r\nTanmateix, l\u2019harmonia no va durar per sempre.
+    Un dia, una llavor de maldat va comen\xE7ar a germinar en el cor de Rauko, qui,
+    cegat de poder, va manipular els l\xEDders en el seu benefici.\r\nRauko, en la
+    seva recerca de poder, va descobrir una m\xE0gia antiga i poderosa que feia temps
+    que estava perduda. Armat amb aquest nou poder, va assassinar els l\xEDders un
+    per un en el transcurs d\u2019una sola nit. Lecai, per fortuna, estava absent
+    aquell dia i es va salvar de la matan\xE7a. Rauko, amb els cossos dels l\xEDders
+    assassinats, va realitzar un ritual del qual havia sentit parlar en les velles
+    hist\xF2ries.\r\nRauko va aconseguir convertir els cossos i \xE0nimes dels l\xEDders
+    en dracs, fins i tot el seu propi \xE9sser va patir la mateixa transformaci\xF3.
+    En unir els seus alens, van convocar el rei dels dracs, qui va liderar els quatre
+    dracs per submergir el m\xF3n en el caos. Aquesta \xE8poca de desordre i destrucci\xF3
+    es coneix com l\u2019era Cynath.\r\nLa guerra constant va marcar aquesta era,
+    amb Lecai al capdavant de la resist\xE8ncia. Durant la guerra, van sorgir b\xE8sties
+    mort\xEDferes que ara habiten el m\xF3n. Els territoris van patir grans canvis
+    i van ser dividits per rius. Per exemple, Hexicar es va transformar en un m\xF3n
+    gelat amb pics de gel i una brisa g\xE8lida, mentre que Belethnar es va convertir
+    en un desert ardent sota un sol implacable, fins i tot quan plovia en altres
+    regions.\r\nLecai, amb l\u2019ajuda dels quatre assistents dels antics l\xEDders,
+    va aconseguir posar els quatre dracs a dormir a les seves respectives terres.
+    Aquests dracs s\xF3n cuidats dia a dia. Cadascun d\u2019aquests assistents governa
+    ara en les diferents terres, mantenint la pau i l\u2019equilibri en un m\xF3n
+    que una vegada va estar al l\xEDmit del caos.\r\n"

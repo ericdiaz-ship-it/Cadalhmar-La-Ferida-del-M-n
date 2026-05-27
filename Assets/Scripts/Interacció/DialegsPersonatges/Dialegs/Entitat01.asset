@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: Entitat01
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Jo
+    textDialeg: "\xBFCom m\u2019ajudaries, que saps?"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: Se, pero no se, el que li passa a la teva germana de sang
+    imatgePersonatge: {fileID: 6524474056086222057, guid: b9502a11701fe4b43a3460607c93df90, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "\xBFQue en saps de la garra del rei?"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: "Quin nom m\xE9s ridcul, abans de contestarte, \xBFvols que t\u2019ajudi?"
+    imatgePersonatge: {fileID: 6524474056086222057, guid: b9502a11701fe4b43a3460607c93df90, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Si, diguem que he de fer
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Entitat
+    textDialeg: No, aquest si, es simple, sec, senzill, no implica res
+    imatgePersonatge: {fileID: 6524474056086222057, guid: b9502a11701fe4b43a3460607c93df90, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Una fulla apareix davant meu
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Lligament de sang\r\nEn l\u2019instant on el cor es fractura\r\n"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "i el m\xF3n esdev\xE9 massa estret per contenir el dolor,\r\ndues
+      voluntats es reconeixen."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: 'Una crida des de la carn que tem perdre.
+
+      Una respon des del
+      silenci que mai dorm.'
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: 'No hi ha cadenes visibles,
+
+      no hi ha punyals ni juraments
+      cridats al cel.
+
+'
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Nom\xE9s un desig que supera la por\r\ni una pres\xE8ncia que escolta
+      el batec.\r\nEl qui demana ofereix all\xF2 que encara no sap que t\xE9."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "El qui concedeix lliura all\xF2 que encara no sap que \xE9s.\r\nQue
+      la sang recordi all\xF2 que la mem\xF2ria oblida."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Que el vincle neixi abans que la paraula. Que el cam\xED s\u2019obri
+      all\xE0 on la mort ja havia posat arrels. "
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "I quan arribi l\u2019hora, quan la crida sigui completa i la forma
+      reclami el seu nom vertader, el pacte no ser\xE0 pres\xF3 "
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "sin\xF3 revelaci\xF3. Signa no amb m\xE0 tremolosa, sin\xF3 amb
+      voluntat. "
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Deixa que el teu desig sigui la tinta.
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Vull, vull saberne que li passa a la meva germana, com curar-ho,
+      quines opcions em queden, aixi que agafo el boli, i dubitatio signo el contracte.
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}

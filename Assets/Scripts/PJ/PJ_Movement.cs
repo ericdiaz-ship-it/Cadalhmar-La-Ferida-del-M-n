@@ -26,6 +26,9 @@ public class PJ_Movement : MonoBehaviour
     public LayerMask interactLayer;
     public Vector2 interactOffset;
 
+    [Header("Cinemàtica")]
+    public GameObject catherineGameObject;
+
     void Start()
     {
         spriteRenderer.sprite = EldrinAbajo;
@@ -34,7 +37,12 @@ public class PJ_Movement : MonoBehaviour
 
     void Update()
     {
-        // Si hay batalla activa, paramos al jugador completamente
+        if (catherineGameObject != null)
+        {
+            catherineGameObject.SetActive(VariablesGlobals.CatherineCinematica);
+        }
+
+        // Si hi ha una batalla activa, parem el jugador completament
         if (OverworldManager.isBattleActive)
         {
             horizontal = 0;
@@ -114,7 +122,7 @@ public class PJ_Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Si hay batalla activa, detenemos el Rigidbody
+        // Si hi ha una batalla activa, parem el Rigidbody
         if (OverworldManager.isBattleActive)
         {
             rb.linearVelocity = Vector2.zero;

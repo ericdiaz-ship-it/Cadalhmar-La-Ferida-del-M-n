@@ -1,0 +1,157 @@
+Assets\Scripts\Cinematica\ActorCInematica.cs
+Assets\Scripts\Cinematica\AutoiniciarCinematica.cs
+Assets\Scripts\Cinematica\CinematicaDirector.cs
+Assets\Scripts\Cinematica\CinematicaSO.cs
+Assets\Scripts\Cinematica\PasoCinematica.cs
+Assets\Scripts\Cinematica\TiggerCinematica.cs
+Assets\Scripts\Combat\Batalla\BattleDescriptor.cs
+Assets\Scripts\Combat\Batalla\BattleEnemyGroup.cs
+Assets\Scripts\Combat\Batalla\BattleReward.cs
+Assets\Scripts\Combat\CameraMove.cs
+Assets\Scripts\Combat\Criatura\Creature.cs
+Assets\Scripts\Combat\Criatura\CreatureData.cs
+Assets\Scripts\Combat\Criatura\CreatureProfile.cs
+Assets\Scripts\Combat\Criatura\ElementalType.cs
+Assets\Scripts\Combat\Criatura\MasterCreature.cs
+Assets\Scripts\Combat\Criatura\ShadowStats.cs
+Assets\Scripts\Combat\Criatura\Stats.cs
+Assets\Scripts\Combat\Gestors\BattleManager.cs
+Assets\Scripts\Combat\Gestors\CombatTransitionManager.cs
+Assets\Scripts\Combat\Gestors\ExperienceManager.cs
+Assets\Scripts\Combat\Gestors\InputManager.cs
+Assets\Scripts\Combat\Gestors\MapManager.cs
+Assets\Scripts\Combat\Gestors\MessageManager.cs
+Assets\Scripts\Combat\Gestors\OverworldManager.cs
+Assets\Scripts\Combat\Gestors\SkillFeedbackManager.cs
+Assets\Scripts\Combat\Habilitat\Area\StatusConditionArea.cs
+Assets\Scripts\Combat\Habilitat\Area\StatusConditionAreaManager.cs
+Assets\Scripts\Combat\Habilitat\CaptureEffect.cs
+Assets\Scripts\Combat\Habilitat\CaptureSkill.cs
+Assets\Scripts\Combat\Habilitat\DamageEffect.cs
+Assets\Scripts\Combat\Habilitat\ElementalWeaknessDB.cs
+Assets\Scripts\Combat\Habilitat\HealEffect.cs
+Assets\Scripts\Combat\Habilitat\IEffect.cs
+Assets\Scripts\Combat\Habilitat\Skill.cs
+Assets\Scripts\Combat\Habilitat\Spawner\InvokeEffect.cs
+Assets\Scripts\Combat\Habilitat\Spawner\ISpawner.cs
+Assets\Scripts\Combat\Habilitat\Spawner\SpawnEffect.cs
+Assets\Scripts\Combat\Habilitat\StatusCondition\DamageStatusCondition.cs
+Assets\Scripts\Combat\Habilitat\StatusCondition\ParalysisStatusCondition.cs
+Assets\Scripts\Combat\Habilitat\StatusCondition\StatModStatusCondition.cs
+Assets\Scripts\Combat\Habilitat\StatusCondition\StatusCondition.cs
+Assets\Scripts\Combat\Habilitat\StatusCondition\StatusConditionEffect.cs
+Assets\Scripts\Combat\InterficieUsuari\BattleOverUI.cs
+Assets\Scripts\Combat\InterficieUsuari\CreatureBattleUI.cs
+Assets\Scripts\Combat\InterficieUsuari\CreatureEnergyIndicator.cs
+Assets\Scripts\Combat\InterficieUsuari\DynamicItemUIList.cs
+Assets\Scripts\Combat\InterficieUsuari\ExperienceGainUI.cs
+Assets\Scripts\Combat\InterficieUsuari\HealthBarUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Inventory\InventoryItemListItemUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Inventory\InventoryItemListUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Inventory\InventoryUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Inventory\InventoryUseOnCreatureUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Inventory\InventoryUseUI.cs
+Assets\Scripts\Combat\InterficieUsuari\ItemGainUI.cs
+Assets\Scripts\Combat\InterficieUsuari\SingleStatUI.cs
+Assets\Scripts\Combat\InterficieUsuari\SingleStatusConditionUI.cs
+Assets\Scripts\Combat\InterficieUsuari\SkillButton.cs
+Assets\Scripts\Combat\InterficieUsuari\SkillFeedbackUI.cs
+Assets\Scripts\Combat\InterficieUsuari\SkillHitChanceUI.cs
+Assets\Scripts\Combat\InterficieUsuari\StatusConditionListUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Team\TeamCreatureDetailsSkillItemUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Team\TeamCreatureDetailsUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Team\TeamCreatureListItemUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Team\TeamCreatureListUI.cs
+Assets\Scripts\Combat\InterficieUsuari\Team\TeamUI.cs
+Assets\Scripts\Combat\InterficieUsuari\TurnUI.cs
+Assets\Scripts\Combat\Mapa\Map.cs
+Assets\Scripts\Combat\Mapa\MapActionMarker.cs
+Assets\Scripts\Combat\Mapa\MapDisplay.cs
+Assets\Scripts\Combat\Mapa\MapPathFinder.cs
+Assets\Scripts\Combat\Mapa\TiledMap.cs
+Assets\Scripts\Combat\Mapa\TileType.cs
+Assets\Scripts\Combat\Mestre\AIMaster.cs
+Assets\Scripts\Combat\Mestre\HumanMaster.cs
+Assets\Scripts\Combat\Mestre\Master.cs
+Assets\Scripts\Combat\Missatge\BattleOverCreatureData.cs
+Assets\Scripts\Combat\Missatge\BattleOverMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureActionMoveMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureActionSkillMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureBaseMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureCapturedMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureDefeatedMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureMovedMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureSelectedMessage.cs
+Assets\Scripts\Combat\Missatge\Creature\CreatureUpdatedMessage.cs
+Assets\Scripts\Combat\Missatge\IMessageListener.cs
+Assets\Scripts\Combat\Missatge\Message.cs
+Assets\Scripts\Combat\Missatge\NextTurnMessage.cs
+Assets\Scripts\Combat\Missatge\Request\SkillHitChanceRequest.cs
+Assets\Scripts\Combat\Missatge\SkillHealthModMessage.cs
+Assets\Scripts\Combat\Missatge\SkillMissMessage.cs
+Assets\Scripts\Combat\MonObert\BattleArea.cs
+Assets\Scripts\Combat\MonObert\CollisionCombatTrigger.cs
+Assets\Scripts\Combat\MonObert\EnemyAI.cs
+Assets\Scripts\Combat\MonObert\OverworldEnemySpawner.cs
+Assets\Scripts\Combat\MonObert\PlayerMovement.cs
+Assets\Scripts\Combat\MonObert\ProtagonistMove.cs
+Assets\Scripts\Combat\Objectes\Item.cs
+Assets\Scripts\Combat\Objectes\ItemGive.cs
+Assets\Scripts\Combat\Objectes\ItemStack.cs
+Assets\Scripts\Combat\Objectes\Potion.cs
+Assets\Scripts\Interacció\DialegObjecte\ObjecteDialegManager.cs
+Assets\Scripts\Interacció\DialegsPersonatges\Dialeg.cs
+Assets\Scripts\Interacció\DialegsPersonatges\DialegSO.cs
+Assets\Scripts\Interacció\DialegsPersonatges\GestorDialeg.cs
+Assets\Scripts\Interacció\DialegsPersonatges\LineaDialeg.cs
+Assets\Scripts\Interacció\Interficie\IInteractuable.cs
+Assets\Scripts\Interacció\Objectes\ObjecteDebug.cs
+Assets\Scripts\Interacció\Objectes\ObjecteLectura.cs
+Assets\Scripts\Interacció\Objectes\ObjectesEspecifics\AgafaDocument.cs
+Assets\Scripts\Interacció\Objectes\ObjectesEspecifics\AgafaObjecte.cs
+Assets\Scripts\Interacció\Objectes\ObjectesEspecifics\MesitadeNit.cs
+Assets\Scripts\Interacció\Teletransportacion\EntryPoint.cs
+Assets\Scripts\Interacció\Teletransportacion\LevelManager.cs
+Assets\Scripts\Interacció\Teletransportacion\SceneTeleport.cs
+Assets\Scripts\Inventari\BotoDocument.cs
+Assets\Scripts\Inventari\Document.cs
+Assets\Scripts\Inventari\DocumentDataBase.cs
+Assets\Scripts\Inventari\InventariManager.cs
+Assets\Scripts\Npc\Npc_moviment.cs
+Assets\Scripts\PJ\PJ_Movement.cs
+Assets\Scripts\VariablesGlobals.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\DropdownSample.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs
+Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs
+Assets\UI\CodigoUI.cs

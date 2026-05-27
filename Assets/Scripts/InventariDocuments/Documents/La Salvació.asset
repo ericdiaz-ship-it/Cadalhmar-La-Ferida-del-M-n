@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ab844e47f3ac74386b1073f515c824, type: 3}
+  m_Name: "La Salvaci\xF3"
+  m_EditorClassIdentifier: Assembly-CSharp::DocumentData
+  id: 8
+  titol: "La Salvaci\xF3"
+  contingut: "I fou en els dies de la gran desesperaci\xF3, quan la foscor avan\xE7\xE0
+    sobre Cadlahmar i el dest\xED de la humanitat qued\xE0 a les portes del seu final,
+    que Lecai, la Reina Blanca, s\u2019al\xE7\xE0 davant del m\xF3n. Com una pres\xE8ncia
+    enviada pels mateixos cels, elev\xE0 les seves mans cap a les altures, i el silenci
+    cobr\xED tota exist\xE8ncia.\r\nI entre els seus dits nasqu\xE9 la llum; no una
+    llum creada per guiar camins ni per il\xB7luminar les nits, sin\xF3 la llum de
+    la salvaci\xF3, la nostra salvaci\xF3. Una llum pura que s\u2019al\xE7\xE0 davant
+    de la foscor i desafi\xE0 all\xF2 que semblava inevitable.\r\nI els cels escoltaren
+    la seva voluntat. Llavors un immens raig descend\xED des de les altures, obeint
+    la seva protectora, i Cadlahmar tremol\xE0 davant la grandesa del seu poder.
+    Les terres s\u2019agitaren, els mars rugiren i fins la mateixa exist\xE8ncia
+    s\u2019inclin\xE0 davant la for\xE7a angelical de la Reina Blanca.\r\nI all\xF2
+    que els \xE9ssers de Cadlahmar havien conegut durant generacions fou dividit
+    en dos. Les terres s\u2019obriren sota la seva voluntat, separades no per destrucci\xF3
+    ni per ira, sin\xF3 per preservar la vida que encara romania. Car Lecai no escoll\xED
+    sacrificar el m\xF3n; escoll\xED salvar-lo.\r\nI aix\xED la Reina Blanca separ\xE0
+    la terra en dues meitats i carreg\xE0 sobre les seves espatlles el pes de la
+    humanitat. I aquells que contemplaren el miracle saberen que havien presenciat
+    una obra que transcend\xED tota comprensi\xF3."

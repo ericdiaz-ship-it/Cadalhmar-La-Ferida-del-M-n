@@ -7,20 +7,20 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
-    public Animator animator; // Optional for animations
+    public Animator animator; // Opcional per a les animacions
 
     private Vector2 movement;
 
     void Update()
     {
-        // Get input for movement
+        // Obtenim l'entrada del moviment
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // Normalize to prevent faster diagonal movement
+        // Normalitzem per evitar un moviment diagonal més ràpid
         movement = movement.normalized;
 
-        // Set animator parameters if animator exists
+        // Configurem els paràmetres de l'animador si existeix
         if (animator != null)
         {
             animator.SetFloat("Horizontal", movement.x);
@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Move the player
+        // Mou el jugador
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f17d3df94bf36148a3f3ae0b2ac527d, type: 3}
+  m_Name: Sacerdot02
+  m_EditorClassIdentifier: Assembly-CSharp::DialegSO
+  linies:
+  - nomPersonatge: Jo
+    textDialeg: "Que \xE9s aquest paper pare?"
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: 'On l''has trobat, m''ho vaig deixar a ta casa? '
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Si, sembla un ritual, vull provar-ho est\xE0 incomplet."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: "Eldrin \xE9s dif\xEDcil, si us plau, no ho facis m\xE9s dif\xEDcil."
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: Necessito entrar, vull baixar a la masmorra.
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: No, no pots, si us plau Eldrin.
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}
+  - nomPersonatge: Jo
+    textDialeg: "Baixar\xE9 sota la meva responsabilitat Pare, ho far\xE9 per la
+      germana."
+    imatgePersonatge: {fileID: 3244110475558340345, guid: 088a3d0519212e041b6ad2d0d31f4417, type: 3}
+  - nomPersonatge: Sacerdot
+    textDialeg: "T\xE9, aqu\xED tens la clau, que les ll\xE0grimes et beneeixin."
+    imatgePersonatge: {fileID: 3485556068971407438, guid: 1d70e698e02fd334a91358846fdaa409, type: 3}

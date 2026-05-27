@@ -35,7 +35,9 @@ public class OverworldManager : MonoBehaviour
     private EventSystem overworldEventSystem;
 
     private CreatureData currentEnemy;
+    private EnemyAI currentEnemyObj;
     private BattleDescriptor currentBattleDescriptor;
+    private List<GameObject> hiddenRootObjects = new List<GameObject>();
 
     void Awake()
     {
@@ -46,7 +48,13 @@ public class OverworldManager : MonoBehaviour
         this.humanCreatures = new CreatureData[this.humanCreatureProfiles.Length];
         for (int i = 0; i < this.humanCreatureProfiles.Length; i++)
         {
-            int targetLevel = this.humanCreatureLevels[i];
+            // Evitem l'error si l'array de nivells és més petita que la de perfils
+            int targetLevel = 1;
+            if (i < this.humanCreatureLevels.Length)
+            {
+                targetLevel = this.humanCreatureLevels[i];
+            }
+            
             this.humanCreatures[i] = this.humanCreatureProfiles[i].GenerateDataForLevel(targetLevel);
         }
 
@@ -82,10 +90,17 @@ public class OverworldManager : MonoBehaviour
             if (rb != null) rb.linearVelocity = Vector2.zero;
         }
 
-        if (this.overworldVisuals != null)
-            this.overworldVisuals.SetActive(false);
-        else
-            Debug.LogWarning("[OWM] overworldVisuals no asignado — el mapa del overworld seguirá visible");
+        // Amaguem automàticament tots els objectes principals de l'escena actual excepte nosaltres
+        hiddenRootObjects.Clear();
+        GameObject[] rootObjects = this.currentScene.GetRootGameObjects();
+        foreach (GameObject go in rootObjects)
+        {
+            if (go != this.gameObject && go.activeSelf)
+            {
+                go.SetActive(false);
+                hiddenRootObjects.Add(go);
+            }
+        }
     }
 
     private void ResumeOverworld()
@@ -93,14 +108,21 @@ public class OverworldManager : MonoBehaviour
         Debug.Log("[OWM] ResumeOverworld");
         isBattleActive = false;
 
+        // Tornem a mostrar tot allò que havíem amagat
+        foreach (GameObject go in hiddenRootObjects)
+        {
+            if (go != null)
+            {
+                go.SetActive(true);
+            }
+        }
+        hiddenRootObjects.Clear();
+
         EnemyAI[] enemies = Object.FindObjectsByType<EnemyAI>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
         foreach (var enemy in enemies)
         {
             enemy.enabled = true;
         }
-
-        if (this.overworldVisuals != null)
-            this.overworldVisuals.SetActive(true);
     }
 
     public void ToggleTeamView()
@@ -146,7 +168,18 @@ public class OverworldManager : MonoBehaviour
 
         BattleDescriptor descriptor = new BattleDescriptor();
         descriptor.humanCreatures = this.humanCreatures;
-        descriptor.aiCreatures = new CreatureData[] { this.currentEnemy };
+
+        // Generem un nombre aleatori entre 1 i 3 enemics
+        int numEnemics = Random.Range(1, 4);
+        CreatureData[] enemicsGenerats = new CreatureData[numEnemics];
+        
+        // Emplenem l'array amb exactament el mateix tipus d'enemic que hem tocat
+        for (int i = 0; i < numEnemics; i++)
+        {
+            enemicsGenerats[i] = this.currentEnemy;
+        }
+
+        descriptor.aiCreatures = enemicsGenerats;
 
         if (this.defaultBattleMapData != null)
         {
@@ -197,7 +230,7 @@ public class OverworldManager : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    public void StartBattleWithEnemy(CreatureData enemy)
+    public void StartBattleWithEnemy(EnemyAI enemyAI)
     {
         Debug.Log($"[OWM] StartBattleWithEnemy — isBattleActive: {isBattleActive}");
 
@@ -207,7 +240,8 @@ public class OverworldManager : MonoBehaviour
             return;
         }
 
-        this.currentEnemy = enemy;
+        this.currentEnemyObj = enemyAI;
+        this.currentEnemy = enemyAI.creatureData;
         this.gameObject.SetActive(true);
         StartCoroutine(this.LoadBattle());
     }
@@ -228,6 +262,13 @@ public class OverworldManager : MonoBehaviour
     {
         Debug.Log("[OWM] EndBattle");
 
+        if (message.isHumanLoss)
+        {
+            // Carreguem l'escena de derrota
+            SceneManager.LoadScene("JocPerdut");
+            return;
+        }
+
         SceneManager.UnloadSceneAsync(this.battleSceneName);
 
         SceneManager.SetActiveScene(this.currentScene);
@@ -238,6 +279,16 @@ public class OverworldManager : MonoBehaviour
 
         this.StoreResultingCreatureData(message.creatureBattleOverData.ToArray());
         this.StoreItemRewards(message.itemRewards.ToArray());
+
+        if (message.isHumanWin || message.isFlee)
+        {
+            // Destruïm l'enemic vençut o de qui hem fugit
+            if (this.currentEnemyObj != null)
+            {
+                Destroy(this.currentEnemyObj.gameObject);
+                this.currentEnemyObj = null;
+            }
+        }
 
         if (this.currentBattleDescriptor != null)
         {

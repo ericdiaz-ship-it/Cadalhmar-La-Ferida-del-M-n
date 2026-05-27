@@ -1,4 +1,4 @@
-/* Root ocupa toda la pantalla */
+/* Root ocupa tota la pantalla */
 .root {
     flex-grow: 1;
     width: 100%;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-/* Imagen de fondo */
+/* Imatge de fons */
 .background {
     position: absolute;
     width: 100%;
@@ -16,7 +16,7 @@
     background-position: center;
 }
 
-/* Overlay violeta oscuro */
+/* Superposició violeta fosca */
 .overlay {
     position: absolute;
     width: 100%;
@@ -24,7 +24,7 @@
     background-color: rgba(25, 0, 35, 0.65);
 }
 
-/* Contenedor central */
+/* Contenidor central */
 .center-container {
     position: absolute;
     width: 100%;
@@ -34,7 +34,7 @@
     flex-direction: column;
 }
 
-/* Título */
+/* Títol */
 .title {
     font-size: 72px;
     -unity-font-style: bold;
@@ -43,17 +43,17 @@
     margin-bottom: 60px;
     unity-text-align: middle-center;
 
-    /* Brillo suave */
+    /* Brillantor suau */
     text-shadow: 0 0 25px rgba(255,255,255,0.35);
 }
 
-/* Botones */
+/* Botons */
 .menu-button {
     width: 260px;
     height: 55px;
     margin-top: 18px;
 
-    background-color: #4B2354; /* Morado exacto oscuro */
+    background-color: #4B2354; /* Morat exacte fosc */
     border-radius: 4px;
     border-width: 0;
 
@@ -69,7 +69,91 @@
     background-color: #5E2C69;
 }
 
-/* Click */
+/* Clic */
 .menu-button:active {
     background-color: #3A1A42;
+}
+
+/* Panell Tutorial */
+.tutorial-panel {
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    background-color: rgba(30, 10, 45, 0.97);
+    border-radius: 12px;
+    align-self: center;
+    top: 7%;
+    padding: 50px 60px;
+    border-width: 1px;
+    border-color: rgba(180, 120, 220, 0.5);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+/* Botó Tancar X */
+.close-button {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(180, 100, 200, 0.15);
+    border-radius: 22px;
+    border-width: 1px;
+    border-color: rgba(180, 120, 220, 0.4);
+    color: #C9A8E0;
+    font-size: 22px;
+    -unity-font-style: bold;
+    cursor: pointer;
+    unity-text-align: middle-center;
+}
+
+.close-button:hover {
+    background-color: rgba(200, 50, 80, 0.3);
+    color: #FF8888;
+    border-color: #FF8888;
+}
+
+.close-button:active {
+    color: #FF3333;
+}
+
+/* Títol gran del Tutorial */
+.tutorial-title {
+    font-size: 52px;
+    -unity-font-style: bold;
+    color: #E8D5FF;
+    unity-text-align: middle-center;
+    letter-spacing: 10px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    text-shadow: 0 0 30px rgba(180, 100, 255, 0.6);
+}
+
+/* Separador de línia */
+.tutorial-separator {
+    height: 1px;
+    background-color: rgba(180, 120, 220, 0.35);
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+
+/* Títol de secció */
+.tutorial-section-title {
+    color: #C89AE8;
+    font-size: 26px;
+    -unity-font-style: bold;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+/* Text del Tutorial */
+.tutorial-text {
+    color: #EDE3F2;
+    font-size: 22px;
+    white-space: normal;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    line-height: 1.7;
 }
